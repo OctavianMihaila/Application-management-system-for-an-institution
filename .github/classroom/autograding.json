@@ -1,0 +1,174 @@
+{
+  "tests": [
+    {
+      "name": "Test 0",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.emptyOutput",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 0
+    },
+    {
+      "name": "Test 1",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.adaugaCerere1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test 2",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.exceptieCerere1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test 3",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.stergeCerere1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 2
+    },
+    {
+      "name": "Test 4",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.utilizatorCerereCombinat1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Test 5",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.utilizatorCerereCombinat2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Test 6",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.utilizatorCerereCombinat3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Test 7",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.utilizatorCerereCombinat4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Test 8",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.utilizatorCerereCombinat5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 3
+    },
+    {
+      "name": "Test 9",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.utilizatoriCombinat1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 4
+    },
+    {
+      "name": "Test 10",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.utilizatoriCombinat2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 4
+    },
+    {
+      "name": "Test 11",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.utilizatoriCombinat3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 4
+    },
+    {
+      "name": "Test 12",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.birouCereri1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Test 13",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.birouCereri2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Test 14",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.birouCereri3",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 5
+    },
+    {
+      "name": "Test 15",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.birouCereri4",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 6
+    },
+    {
+      "name": "Test 16",
+      "setup": "",
+      "run": "gradle test --tests org.example.TestManagementPrimarie.birouCereri5",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 5,
+      "points": 6
+    }
+  ]
+}
