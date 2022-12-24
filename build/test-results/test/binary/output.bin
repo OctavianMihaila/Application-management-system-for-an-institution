@@ -1,0 +1,265 @@
+)adauga_utilizator; persoana; Ion Popescu
+2adauga_utilizator; angajat; Alina Ionescu; Google
+Ecerere_noua; Ion Popescu; inlocuire buletin; 10-Jan-2022 23:00:00; 4
+Ocerere_noua; Ion Popescu; inregistrare venit salarial; 11-Dec-2022 23:00:00; 2
+Gcerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 23:00:00; 1
+Gcerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 00:00:00; 1
+Qcerere_noua; Alina Ionescu; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
+Ocerere_noua; Alina Ionescu; inlocuire carnet de sofer; 19-Nov-2022 23:00:00; 1
+,afiseaza_cereri_in_asteptare; Alina Ionescu
+*afiseaza_cereri_in_asteptare; Ion Popescu
+Aadauga_utilizator; entitate juridica; CC SRL; Cristina Cristescu
+/adauga_utilizator; pensionar; George Georgescu
+Dcerere_noua; CC SRL; reinnoire autorizatie; 10-Jan-2022 10:00:00; 4
+Jcerere_noua; CC SRL; inregistrare venit salarial; 11-Dec-2022 22:00:00; 2
+Ecerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 15:15:00; 5
+Ecerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 20:00:00; 2
+Tcerere_noua; George Georgescu; inregistrare venit salarial; 17-Dec-2022 00:59:00; 3
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:00; 1
+%afiseaza_cereri_in_asteptare; CC SRL
+/afiseaza_cereri_in_asteptare; George Georgescu
+9adauga_utilizator; elev; John Smith; High School Musical
+Kcerere_noua; John Smith; inlocuire carnet de elev; 10-Sep-2022 10:00:00; 4
+Dcerere_noua; John Smith; inlocuire buletin; 11-Sep-2022 22:00:00; 1
+Kcerere_noua; John Smith; inlocuire carnet de elev; 11-Sep-2022 15:15:00; 2
+)afiseaza_cereri_in_asteptare; John Smith
+Dcerere_noua; John Smith; inlocuire buletin; 11-Sep-2021 15:15:00; 2
+4retrage_cerere; Alina Ionescu; 17-Dec-2022 23:59:00
+4retrage_cerere; Alina Ionescu; 11-Dec-2022 00:00:00
+-retrage_cerere; CC SRL; 10-Jan-2022 10:00:00
+7retrage_cerere; George Georgescu; 19-Nov-2022 11:00:00
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:10; 1
+,afiseaza_cereri_in_asteptare; Alina Ionescu
+%afiseaza_cereri_in_asteptare; CC SRL
+/afiseaza_cereri_in_asteptare; George Georgescu
+)adauga_utilizator; persoana; Ion Popescu
+2adauga_utilizator; angajat; Alina Ionescu; Google
+Aadauga_utilizator; entitate juridica; CC SRL; Cristina Cristescu
+/adauga_utilizator; pensionar; George Georgescu
+Dcerere_noua; CC SRL; reinnoire autorizatie; 10-Jan-2022 10:00:00; 4
+Jcerere_noua; CC SRL; inregistrare venit salarial; 11-Dec-2022 22:00:00; 2
+Ecerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 15:15:00; 5
+Ecerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 20:00:00; 2
+Tcerere_noua; George Georgescu; inregistrare venit salarial; 17-Dec-2022 00:59:00; 3
+9adauga_utilizator; elev; John Smith; High School Musical
+Kcerere_noua; John Smith; inlocuire carnet de elev; 10-Sep-2022 10:00:00; 4
+Dcerere_noua; John Smith; inlocuire buletin; 11-Sep-2022 22:00:00; 1
+Kcerere_noua; John Smith; inlocuire carnet de elev; 11-Sep-2022 15:15:00; 2
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:00; 1
+Qcerere_noua; Alina Ionescu; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
+Ocerere_noua; Alina Ionescu; inlocuire carnet de sofer; 19-Nov-2022 23:00:00; 1
+Ecerere_noua; Ion Popescu; inlocuire buletin; 10-Jan-2022 23:00:00; 4
+Ocerere_noua; Ion Popescu; inregistrare venit salarial; 11-Dec-2022 23:00:00; 2
+Gcerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 23:00:00; 1
+Gcerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 00:00:00; 1
+,afiseaza_cereri_in_asteptare; Alina Ionescu
+*afiseaza_cereri_in_asteptare; Ion Popescu
+%afiseaza_cereri_in_asteptare; CC SRL
+/afiseaza_cereri_in_asteptare; George Georgescu
+)afiseaza_cereri_in_asteptare; John Smith
+Dcerere_noua; John Smith; inlocuire buletin; 11-Sep-2021 15:15:00; 2
+4retrage_cerere; Alina Ionescu; 17-Dec-2022 23:59:00
+4retrage_cerere; Alina Ionescu; 11-Dec-2022 00:00:00
+-retrage_cerere; CC SRL; 10-Jan-2022 10:00:00
+7retrage_cerere; George Georgescu; 19-Nov-2022 11:00:00
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:10; 1
+,afiseaza_cereri_in_asteptare; Alina Ionescu
+%afiseaza_cereri_in_asteptare; CC SRL
+/afiseaza_cereri_in_asteptare; George Georgescu
+)adauga_utilizator; persoana; Ion Popescu
+2adauga_utilizator; angajat; Alina Ionescu; Google
+Aadauga_utilizator; entitate juridica; CC SRL; Cristina Cristescu
+/adauga_utilizator; pensionar; George Georgescu
+Dcerere_noua; CC SRL; reinnoire autorizatie; 10-Jan-2022 10:00:00; 4
+Jcerere_noua; CC SRL; inregistrare venit salarial; 11-Dec-2022 22:00:00; 2
+Ecerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 15:15:00; 5
+Ecerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 20:00:00; 2
+Tcerere_noua; George Georgescu; inregistrare venit salarial; 17-Dec-2022 00:59:00; 3
+9adauga_utilizator; elev; John Smith; High School Musical
+Kcerere_noua; John Smith; inlocuire carnet de elev; 10-Sep-2022 10:00:00; 4
+Dcerere_noua; John Smith; inlocuire buletin; 11-Sep-2022 22:00:00; 1
+Kcerere_noua; John Smith; inlocuire carnet de elev; 11-Sep-2022 15:15:00; 2
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:00; 1
+Qcerere_noua; Alina Ionescu; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
+Ocerere_noua; Alina Ionescu; inlocuire carnet de sofer; 19-Nov-2022 23:00:00; 1
+Ecerere_noua; Ion Popescu; inlocuire buletin; 10-Jan-2022 23:00:00; 4
+Ocerere_noua; Ion Popescu; inregistrare venit salarial; 11-Dec-2022 23:00:00; 2
+Gcerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 23:00:00; 1
+Gcerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 00:00:00; 1
+,afiseaza_cereri_in_asteptare; Alina Ionescu
+*afiseaza_cereri_in_asteptare; Ion Popescu
+%afiseaza_cereri_in_asteptare; CC SRL
+/afiseaza_cereri_in_asteptare; George Georgescu
+)afiseaza_cereri_in_asteptare; John Smith
+Dcerere_noua; John Smith; inlocuire buletin; 11-Sep-2021 15:15:00; 2
+4retrage_cerere; Alina Ionescu; 17-Dec-2022 23:59:00
+4retrage_cerere; Alina Ionescu; 11-Dec-2022 00:00:00
+-retrage_cerere; CC SRL; 10-Jan-2022 10:00:00
+7retrage_cerere; George Georgescu; 19-Nov-2022 11:00:00
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:10; 1
+,afiseaza_cereri_in_asteptare; Alina Ionescu
+%afiseaza_cereri_in_asteptare; CC SRL
+/afiseaza_cereri_in_asteptare; George Georgescu
+,adauga_utilizator; pensionar; Mara Margescu
+Ocerere_noua; Mara Margescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:10; 1
+Ocerere_noua; Mara Margescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:09; 2
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:12; 4
+Ocerere_noua; Mara Margescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:08; 5
+Ocerere_noua; Mara Margescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:11; 4
+,afiseaza_cereri_in_asteptare; Mara Margescu
+/afiseaza_cereri_in_asteptare; George Georgescu
+0adauga_utilizator; angajat; Ion Popescu; Google
+Mcerere_noua; Ion Popescu; inlocuire carnet de sofer; 11-Dec-2022 23:00:00; 2
+Icerere_noua; Ion Popescu; reinnoire autorizatie; 10-Jan-2022 23:00:00; 4
+Ecerere_noua; Ion Popescu; inlocuire buletin; 11-Dec-2022 23:00:01; 2
+*afiseaza_cereri_in_asteptare; Ion Popescu
+.adauga_utilizator; angajat; Irina Manole; SBP
+Fcerere_noua; Irina Manole; inlocuire buletin; 12-Dec-1999 23:00:00; 3
+Ncerere_noua; Irina Manole; inlocuire carnet de sofer; 11-Dec-1999 23:00:00; 3
+Fcerere_noua; Irina Manole; inlocuire buletin; 12-Dec-2000 23:00:00; 1
++afiseaza_cereri_in_asteptare; Irina Manole
+0adauga_utilizator; persoana; Cristina Cristescu
+/adauga_utilizator; angajat; Ana Anescu; Google
+3adauga_utilizator; angajat; George Georgescu; Meta
+Ncerere_noua; Ana Anescu; inregistrare venit salarial; 10-Jan-2022 10:01:00; 3
+Lcerere_noua; Ana Anescu; inlocuire carnet de sofer; 10-Jan-2022 10:00:00; 3
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:04:00; 5
+Tcerere_noua; George Georgescu; inregistrare venit salarial; 10-Jan-2022 10:03:00; 4
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 10-Jan-2022 10:03:01; 2
+Jcerere_noua; George Georgescu; inlocuire buletin; 10-Jan-2022 10:02:00; 5
+afiseaza_cereri; angajat
+*adauga_functionar; angajat; Alina Popescu
+(adauga_functionar; angajat; Ion Popescu
+0adauga_utilizator; persoana; Cristina Cristescu
+/adauga_utilizator; angajat; Ana Anescu; Google
+3adauga_utilizator; angajat; George Georgescu; Meta
+Ncerere_noua; Ana Anescu; inregistrare venit salarial; 10-Jan-2022 10:01:00; 3
+Lcerere_noua; Ana Anescu; inlocuire carnet de sofer; 10-Jan-2022 10:00:00; 3
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:04:00; 5
+Tcerere_noua; George Georgescu; inregistrare venit salarial; 10-Jan-2022 10:03:00; 4
+Rcerere_noua; George Georgescu; inlocuire carnet de sofer; 10-Jan-2022 10:03:01; 2
+Jcerere_noua; George Georgescu; inlocuire buletin; 10-Jan-2022 10:02:00; 5
+afiseaza_cereri; angajat
+	Aadauga_utilizator; elev; George Georgescu; Scoala Generala Nr. 7
+	0adauga_utilizator; persoana; Cristina Cristescu
+	%adauga_functionar; elev; Ina Ionescu
+	Vcerere_noua; Cristina Cristescu; inregistrare venit salarial; 10-Jan-2022 10:01:00; 3
+	Tcerere_noua; Cristina Cristescu; inlocuire carnet de sofer; 10-Jan-2022 10:00:00; 3
+	Lcerere_noua; Cristina Cristescu; inlocuire buletin; 10-Jan-2022 10:04:00; 5
+	Qcerere_noua; George Georgescu; inlocuire carnet de elev; 11-Jan-2022 10:03:01; 4
+	Jcerere_noua; George Georgescu; inlocuire buletin; 11-Jan-2022 10:03:00; 4
+	Tcerere_noua; George Georgescu; inregistrare venit salarial; 11-Jan-2022 10:03:02; 5
+	Ocerere_noua; George Georgescu; creare act constitutiv; 11-Jan-2022 10:03:03; 4
+	Tcerere_noua; George Georgescu; inregistrare venit salarial; 11-Jan-2022 10:03:04; 4
+	afiseaza_cereri; persoana
+
+)adauga_utilizator; pensionar; Ana Anescu
+
+?adauga_utilizator; entitate juridica; Ionescu SRL; Ion Ionescu
+
+Ncerere_noua; Ana Anescu; inregistrare venit salarial; 10-Jan-2022 10:01:01; 3
+
+Qcerere_noua; Ana Anescu; inregistrare cupoane de pensie; 10-Jan-2022 10:01:05; 5
+
+Qcerere_noua; Ana Anescu; inregistrare cupoane de pensie; 10-Jan-2022 10:01:03; 5
+
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:04; 2
+
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:07; 4
+
+Icerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:01; 3
+
+Icerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:05; 5
+
+Icerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:03; 5
+
+Icerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:04; 2
+
+Icerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:07; 4
+
+3adauga_functionar; pensionar; Andra Functionarescu
+
+;adauga_functionar; entitate juridica; Mihai Functionarescu
+
+.adauga_utilizator; pensionar; Monica Margescu
+
+;adauga_utilizator; entitate juridica; John SRL; John Smith
+
+Qcerere_noua; Monica Margescu; inlocuire carnet de sofer; 13-Jan-2022 10:01:01; 3
+
+Vcerere_noua; Monica Margescu; inregistrare cupoane de pensie; 13-Jan-2022 10:01:05; 5
+
+Vcerere_noua; Monica Margescu; inregistrare cupoane de pensie; 13-Jan-2022 10:01:03; 5
+
+Gcerere_noua; John SRL; creare act constitutiv; 16-Jan-2022 10:01:01; 3
+
+Fcerere_noua; John SRL; reinnoire autorizatie; 16-Jan-2022 10:01:05; 5
+
+Gcerere_noua; John SRL; creare act constitutiv; 16-Jan-2022 10:01:03; 5
+
+Fcerere_noua; John SRL; reinnoire autorizatie; 16-Jan-2022 10:01:04; 2
+
+afiseaza_cereri; pensionar
+(adauga_utilizator; persoana; Ana Anescu
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:01; 3
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:03; 2
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:02; 3
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:04; 4
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:05; 5
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:07; 2
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:06; 1
+Dcerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:09; 3
+afiseaza_cereri; persoana
+.adauga_utilizator; angajat; Irina Manole; SBP
+Fcerere_noua; Irina Manole; inlocuire buletin; 12-Dec-1999 23:00:00; 3
+Ncerere_noua; Irina Manole; inlocuire carnet de sofer; 11-Dec-1999 23:00:00; 3
+Fcerere_noua; Irina Manole; inlocuire buletin; 12-Dec-2000 23:00:00; 1
++afiseaza_cereri_in_asteptare; Irina Manole
+3retrage_cerere; Irina Manole; 12-Dec-1999 23:00:00
++afiseaza_cereri_in_asteptare; Irina Manole
+.adauga_utilizator; angajat; Irina Manole; SBP
+Fcerere_noua; Irina Manole; inlocuire buletin; 10-Jan-2022 23:00:00; 4
+Mcerere_noua; Irina Manole; inlocuire carnet de elev; 11-Dec-2022 23:00:00; 2
+Fcerere_noua; Irina Manole; inlocuire buletin; 11-Dec-2022 23:00:00; 2
+Fcerere_noua; Irina Manole; inlocuire buletin; 11-Dec-2022 00:00:00; 2
+Pcerere_noua; Irina Manole; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
+Fcerere_noua; Irina Manole; inlocuire buletin; 19-Nov-2022 23:00:00; 1
++afiseaza_cereri_in_asteptare; Irina Manole
+3retrage_cerere; Irina Manole; 11-Dec-2022 23:00:00
++afiseaza_cereri_in_asteptare; Irina Manole
+:adauga_utilizator; elev; Ioana Pop; Scoala Generala Nr. 2
+Ccerere_noua; Ioana Pop; inlocuire buletin; 10-Jan-2022 23:00:00; 4
+Jcerere_noua; Ioana Pop; inlocuire carnet de elev; 11-Dec-2022 23:00:00; 2
+Ccerere_noua; Ioana Pop; inlocuire buletin; 11-Dec-2022 23:00:01; 2
+Mcerere_noua; Ioana Pop; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
+Ccerere_noua; Ioana Pop; inlocuire buletin; 19-Nov-2022 23:59:00; 1
+(afiseaza_cereri_in_asteptare; Ioana Pop
+0retrage_cerere; Ioana Pop; 19-Nov-2022 23:59:00
+0retrage_cerere; Ioana Pop; 10-Jan-2022 23:00:00
+0retrage_cerere; Ioana Pop; 11-Dec-2022 23:00:00
+(afiseaza_cereri_in_asteptare; Ioana Pop
+*adauga_utilizator; pensionar; Ion Popescu
+Lcerere_noua; Ion Popescu; inlocuire carnet de elev; 11-Dec-2022 23:00:00; 2
+Ecerere_noua; Ion Popescu; inlocuire buletin; 10-Jan-2022 23:00:00; 4
+Mcerere_noua; Ion Popescu; inlocuire carnet de sofer; 11-Dec-2022 23:00:01; 2
+Ocerere_noua; Ion Popescu; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
+Rcerere_noua; Ion Popescu; inregistrare cupoane de pensie; 19-Nov-2022 23:59:00; 1
+*afiseaza_cereri_in_asteptare; Ion Popescu
+2retrage_cerere; Ion Popescu; 10-Jan-2022 23:00:00
+2retrage_cerere; Ion Popescu; 19-Nov-2022 23:59:00
+*afiseaza_cereri_in_asteptare; Ion Popescu
+:adauga_utilizator; entitate juridica; IP SRL; Ion Popescu
+Ecerere_noua; IP SRL; creare act constitutiv; 11-Dec-2022 23:00:00; 2
+Dcerere_noua; IP SRL; reinnoire autorizatie; 10-Jan-2022 23:00:00; 4
+Hcerere_noua; IP SRL; inlocuire carnet de sofer; 11-Dec-2022 23:00:01; 2
+%afiseaza_cereri_in_asteptare; IP SRL
+-retrage_cerere; IP SRL; 10-Jan-2022 23:00:00
+%afiseaza_cereri_in_asteptare; IP SRL
+)adauga_utilizator; persoana; Ion Popescu
+Ecerere_noua; Ion Popescu; inlocuire buletin; 11-Dec-2022 23:00:00; 2
+Mcerere_noua; Ion Popescu; inlocuire carnet de sofer; 10-Jan-2022 23:00:00; 4
+Mcerere_noua; Ion Popescu; inlocuire carnet de sofer; 11-Dec-2022 23:00:01; 2
+Jcerere_noua; Ion Popescu; creare act constitutiv; 11-Dec-2022 23:00:01; 2
+*afiseaza_cereri_in_asteptare; Ion Popescu
+2retrage_cerere; Ion Popescu; 11-Dec-2022 23:00:01
+*afiseaza_cereri_in_asteptare; Ion Popescu
