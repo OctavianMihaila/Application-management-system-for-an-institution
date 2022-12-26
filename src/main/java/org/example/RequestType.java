@@ -1,4 +1,4 @@
-package org.Hall;
+package org.example;
 
 public enum RequestType {
     INLOCUIRE_BULETIN("inlocuire buletin"),

@@ -1,10 +1,6 @@
 package Users;
 
-import org.Hall.Request;
-import org.Hall.RequestType;
-
-import java.util.ArrayList;
-import java.util.List;
+import org.example.RequestType;
 
 public class Person extends User {
 

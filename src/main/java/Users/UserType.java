@@ -1,8 +1,5 @@
 package Users;
 
-import org.Hall.Office;
-import org.Hall.RequestType;
-
 public enum UserType { //TODO rename content to english
     ELEV("elev"),
     PERSOANA("persoana"),

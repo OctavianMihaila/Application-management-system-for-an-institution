@@ -1,6 +1,4 @@
-package org.Hall;
-
-import Users.User;
+package org.example;
 
 import java.util.*;
 

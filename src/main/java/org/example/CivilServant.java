@@ -1,6 +1,4 @@
-package org.Hall;
-
-import Utils.Parser;
+package org.example;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;

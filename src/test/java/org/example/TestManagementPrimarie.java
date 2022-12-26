@@ -1,4 +1,4 @@
-package org.Hall;
+package org.example;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.apache.commons.io.IOUtils;

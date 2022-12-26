@@ -1,6 +1,6 @@
 package Users;
 
-import org.Hall.RequestType;
+import org.example.RequestType;
 
 public class Employee extends User {
 

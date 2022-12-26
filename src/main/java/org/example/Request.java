@@ -1,4 +1,4 @@
-package org.Hall;
+package org.example;
 
 import java.util.Date;
 
