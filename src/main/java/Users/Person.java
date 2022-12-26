@@ -1,10 +1,18 @@
 package Users;
 
+import org.Hall.Request;
+import org.Hall.RequestType;
+
+import java.util.ArrayList;
+import java.util.List;
+
 public class Person extends User {
 
-    private enum PossibleRequests {
-        INLOCUIRE_BULETIN,
-        INLOCUIRE_CARNET_DE_SOFER;
+    public Person(UserType userType, String username) {
+        allowedRequests.add(RequestType.INLOCUIRE_BULETIN);
+        allowedRequests.add(RequestType.INLOCUIRE_CARNET_DE_SOFER);
+        this.userType = userType;
+        this.username = username;
     }
 
 }

@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.165s</div>
+<div class="counter">0.119s</div>
 <p>duration</p>
 </div>
 </td>
@@ -173,9 +173,13 @@
 <a name="birouCereri1()"></a>
 <h3 class="failures">birouCereri1()</h3>
 <span class="code">
-<pre>java.text.ParseException: Invalid request
-	at org.Hall.ManagementPrimarie.main(ManagementPrimarie.java:53)
-	at org.Hall.TestManagementPrimarie.birouCereri1(TestManagementPrimarie.java:127)
+<pre>java.io.FileNotFoundException: src/main/resources/output/12_birou_cereri_1.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at org.Hall.TestManagementPrimarie.birouCereri1(TestManagementPrimarie.java:128)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -266,9 +270,13 @@
 <a name="birouCereri2()"></a>
 <h3 class="failures">birouCereri2()</h3>
 <span class="code">
-<pre>java.text.ParseException: Invalid request
-	at org.Hall.ManagementPrimarie.main(ManagementPrimarie.java:53)
-	at org.Hall.TestManagementPrimarie.birouCereri2(TestManagementPrimarie.java:136)
+<pre>java.io.FileNotFoundException: src/main/resources/output/13_birou_cereri_2.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at org.Hall.TestManagementPrimarie.birouCereri2(TestManagementPrimarie.java:139)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -359,8 +367,8 @@
 <a name="birouCereri3()"></a>
 <h3 class="failures">birouCereri3()</h3>
 <span class="code">
-<pre>java.text.ParseException: Invalid request
-	at org.Hall.ManagementPrimarie.main(ManagementPrimarie.java:53)
+<pre>java.lang.NullPointerException: Cannot invoke &quot;org.Hall.RequestType.getValue()&quot; because the return value of &quot;org.Hall.Request.getType()&quot; is null
+	at org.Hall.ManagementPrimarie.main(ManagementPrimarie.java:151)
 	at org.Hall.TestManagementPrimarie.birouCereri3(TestManagementPrimarie.java:155)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -452,8 +460,8 @@
 <a name="birouCereri4()"></a>
 <h3 class="failures">birouCereri4()</h3>
 <span class="code">
-<pre>java.text.ParseException: Invalid request
-	at org.Hall.ManagementPrimarie.main(ManagementPrimarie.java:53)
+<pre>java.lang.NullPointerException: Cannot invoke &quot;org.Hall.RequestType.getValue()&quot; because the return value of &quot;org.Hall.Request.getType()&quot; is null
+	at org.Hall.ManagementPrimarie.main(ManagementPrimarie.java:151)
 	at org.Hall.TestManagementPrimarie.birouCereri4(TestManagementPrimarie.java:170)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
@@ -545,9 +553,13 @@
 <a name="birouCereri5()"></a>
 <h3 class="failures">birouCereri5()</h3>
 <span class="code">
-<pre>java.text.ParseException: Invalid request
-	at org.Hall.ManagementPrimarie.main(ManagementPrimarie.java:53)
-	at org.Hall.TestManagementPrimarie.birouCereri5(TestManagementPrimarie.java:197)
+<pre>java.io.FileNotFoundException: src/main/resources/output/16_birou_cereri_5.txt (No such file or directory)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:216)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.&lt;init&gt;(FileInputStream.java:111)
+	at java.base/java.io.FileReader.&lt;init&gt;(FileReader.java:60)
+	at org.Hall.TestManagementPrimarie.birouCereri5(TestManagementPrimarie.java:200)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -1617,17 +1629,17 @@
 </thead>
 <tr>
 <td class="failures">adaugaCerere1()</td>
-<td class="failures">0.003s</td>
+<td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">birouCereri1()</td>
-<td class="failures">0.001s</td>
+<td class="failures">0.005s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">birouCereri2()</td>
-<td class="failures">0.003s</td>
+<td class="failures">0.010s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -1637,37 +1649,37 @@
 </tr>
 <tr>
 <td class="failures">birouCereri4()</td>
-<td class="failures">0.005s</td>
+<td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">birouCereri5()</td>
-<td class="failures">0.002s</td>
+<td class="failures">0.004s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="success">emptyOutput()</td>
-<td class="success">0.007s</td>
+<td class="success">0.005s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="failures">exceptieCerere1()</td>
-<td class="failures">0.016s</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">stergeCerere1()</td>
-<td class="failures">0.002s</td>
+<td class="failures">0.008s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">utilizatorCerereCombinat1()</td>
-<td class="failures">0.003s</td>
+<td class="failures">0.008s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">utilizatorCerereCombinat2()</td>
-<td class="failures">0.002s</td>
+<td class="failures">0.001s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
@@ -1677,27 +1689,27 @@
 </tr>
 <tr>
 <td class="failures">utilizatorCerereCombinat4()</td>
-<td class="failures">0.003s</td>
+<td class="failures">0.002s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">utilizatorCerereCombinat5()</td>
-<td class="failures">0.004s</td>
+<td class="failures">0.005s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">utilizatoriCombinat1()</td>
-<td class="failures">0.098s</td>
+<td class="failures">0.049s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">utilizatoriCombinat2()</td>
-<td class="failures">0.007s</td>
+<td class="failures">0.005s</td>
 <td class="failures">failed</td>
 </tr>
 <tr>
 <td class="failures">utilizatoriCombinat3()</td>
-<td class="failures">0.004s</td>
+<td class="failures">0.007s</td>
 <td class="failures">failed</td>
 </tr>
 </table>
@@ -1705,247 +1717,225 @@
 <div id="tab2" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>adauga_utilizator; persoana; Ion Popescu
-adauga_utilizator; angajat; Alina Ionescu; Google
-cerere_noua; Ion Popescu; inlocuire buletin; 10-Jan-2022 23:00:00; 4
-cerere_noua; Ion Popescu; inregistrare venit salarial; 11-Dec-2022 23:00:00; 2
-cerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 23:00:00; 1
-cerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 00:00:00; 1
-cerere_noua; Alina Ionescu; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
-cerere_noua; Alina Ionescu; inlocuire carnet de sofer; 19-Nov-2022 23:00:00; 1
-afiseaza_cereri_in_asteptare; Alina Ionescu
-afiseaza_cereri_in_asteptare; Ion Popescu
-adauga_utilizator; entitate juridica; CC SRL; Cristina Cristescu
-adauga_utilizator; pensionar; George Georgescu
-cerere_noua; CC SRL; reinnoire autorizatie; 10-Jan-2022 10:00:00; 4
-cerere_noua; CC SRL; inregistrare venit salarial; 11-Dec-2022 22:00:00; 2
-cerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 15:15:00; 5
-cerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 20:00:00; 2
-cerere_noua; George Georgescu; inregistrare venit salarial; 17-Dec-2022 00:59:00; 3
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:00; 1
-afiseaza_cereri_in_asteptare; CC SRL
-afiseaza_cereri_in_asteptare; George Georgescu
-adauga_utilizator; elev; John Smith; High School Musical
-cerere_noua; John Smith; inlocuire carnet de elev; 10-Sep-2022 10:00:00; 4
-cerere_noua; John Smith; inlocuire buletin; 11-Sep-2022 22:00:00; 1
-cerere_noua; John Smith; inlocuire carnet de elev; 11-Sep-2022 15:15:00; 2
-afiseaza_cereri_in_asteptare; John Smith
-cerere_noua; John Smith; inlocuire buletin; 11-Sep-2021 15:15:00; 2
-retrage_cerere; Alina Ionescu; 17-Dec-2022 23:59:00
-retrage_cerere; Alina Ionescu; 11-Dec-2022 00:00:00
-retrage_cerere; CC SRL; 10-Jan-2022 10:00:00
-retrage_cerere; George Georgescu; 19-Nov-2022 11:00:00
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:10; 1
-afiseaza_cereri_in_asteptare; Alina Ionescu
-afiseaza_cereri_in_asteptare; CC SRL
-afiseaza_cereri_in_asteptare; George Georgescu
-adauga_utilizator; persoana; Ion Popescu
-adauga_utilizator; angajat; Alina Ionescu; Google
-adauga_utilizator; entitate juridica; CC SRL; Cristina Cristescu
-adauga_utilizator; pensionar; George Georgescu
-cerere_noua; CC SRL; reinnoire autorizatie; 10-Jan-2022 10:00:00; 4
-cerere_noua; CC SRL; inregistrare venit salarial; 11-Dec-2022 22:00:00; 2
-cerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 15:15:00; 5
-cerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 20:00:00; 2
-cerere_noua; George Georgescu; inregistrare venit salarial; 17-Dec-2022 00:59:00; 3
-adauga_utilizator; elev; John Smith; High School Musical
-cerere_noua; John Smith; inlocuire carnet de elev; 10-Sep-2022 10:00:00; 4
-cerere_noua; John Smith; inlocuire buletin; 11-Sep-2022 22:00:00; 1
-cerere_noua; John Smith; inlocuire carnet de elev; 11-Sep-2022 15:15:00; 2
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:00; 1
-cerere_noua; Alina Ionescu; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
-cerere_noua; Alina Ionescu; inlocuire carnet de sofer; 19-Nov-2022 23:00:00; 1
-cerere_noua; Ion Popescu; inlocuire buletin; 10-Jan-2022 23:00:00; 4
-cerere_noua; Ion Popescu; inregistrare venit salarial; 11-Dec-2022 23:00:00; 2
-cerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 23:00:00; 1
-cerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 00:00:00; 1
-afiseaza_cereri_in_asteptare; Alina Ionescu
-afiseaza_cereri_in_asteptare; Ion Popescu
-afiseaza_cereri_in_asteptare; CC SRL
-afiseaza_cereri_in_asteptare; George Georgescu
-afiseaza_cereri_in_asteptare; John Smith
-cerere_noua; John Smith; inlocuire buletin; 11-Sep-2021 15:15:00; 2
-retrage_cerere; Alina Ionescu; 17-Dec-2022 23:59:00
-retrage_cerere; Alina Ionescu; 11-Dec-2022 00:00:00
-retrage_cerere; CC SRL; 10-Jan-2022 10:00:00
-retrage_cerere; George Georgescu; 19-Nov-2022 11:00:00
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:10; 1
-afiseaza_cereri_in_asteptare; Alina Ionescu
-afiseaza_cereri_in_asteptare; CC SRL
-afiseaza_cereri_in_asteptare; George Georgescu
-adauga_utilizator; persoana; Ion Popescu
-adauga_utilizator; angajat; Alina Ionescu; Google
-adauga_utilizator; entitate juridica; CC SRL; Cristina Cristescu
-adauga_utilizator; pensionar; George Georgescu
-cerere_noua; CC SRL; reinnoire autorizatie; 10-Jan-2022 10:00:00; 4
-cerere_noua; CC SRL; inregistrare venit salarial; 11-Dec-2022 22:00:00; 2
-cerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 15:15:00; 5
-cerere_noua; CC SRL; creare act constitutiv; 11-Dec-2022 20:00:00; 2
-cerere_noua; George Georgescu; inregistrare venit salarial; 17-Dec-2022 00:59:00; 3
-adauga_utilizator; elev; John Smith; High School Musical
-cerere_noua; John Smith; inlocuire carnet de elev; 10-Sep-2022 10:00:00; 4
-cerere_noua; John Smith; inlocuire buletin; 11-Sep-2022 22:00:00; 1
-cerere_noua; John Smith; inlocuire carnet de elev; 11-Sep-2022 15:15:00; 2
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:00; 1
-cerere_noua; Alina Ionescu; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
-cerere_noua; Alina Ionescu; inlocuire carnet de sofer; 19-Nov-2022 23:00:00; 1
-cerere_noua; Ion Popescu; inlocuire buletin; 10-Jan-2022 23:00:00; 4
-cerere_noua; Ion Popescu; inregistrare venit salarial; 11-Dec-2022 23:00:00; 2
-cerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 23:00:00; 1
-cerere_noua; Alina Ionescu; inlocuire buletin; 11-Dec-2022 00:00:00; 1
-afiseaza_cereri_in_asteptare; Alina Ionescu
-afiseaza_cereri_in_asteptare; Ion Popescu
-afiseaza_cereri_in_asteptare; CC SRL
-afiseaza_cereri_in_asteptare; George Georgescu
-afiseaza_cereri_in_asteptare; John Smith
-cerere_noua; John Smith; inlocuire buletin; 11-Sep-2021 15:15:00; 2
-retrage_cerere; Alina Ionescu; 17-Dec-2022 23:59:00
-retrage_cerere; Alina Ionescu; 11-Dec-2022 00:00:00
-retrage_cerere; CC SRL; 10-Jan-2022 10:00:00
-retrage_cerere; George Georgescu; 19-Nov-2022 11:00:00
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 19-Nov-2022 11:00:10; 1
-afiseaza_cereri_in_asteptare; Alina Ionescu
-afiseaza_cereri_in_asteptare; CC SRL
-afiseaza_cereri_in_asteptare; George Georgescu
-adauga_utilizator; pensionar; Mara Margescu
-cerere_noua; Mara Margescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:10; 1
-cerere_noua; Mara Margescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:09; 2
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:12; 4
-cerere_noua; Mara Margescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:08; 5
-cerere_noua; Mara Margescu; inlocuire carnet de sofer; 25-Nov-2022 11:00:11; 4
-afiseaza_cereri_in_asteptare; Mara Margescu
-afiseaza_cereri_in_asteptare; George Georgescu
-adauga_utilizator; angajat; Ion Popescu; Google
-cerere_noua; Ion Popescu; inlocuire carnet de sofer; 11-Dec-2022 23:00:00; 2
-cerere_noua; Ion Popescu; reinnoire autorizatie; 10-Jan-2022 23:00:00; 4
-cerere_noua; Ion Popescu; inlocuire buletin; 11-Dec-2022 23:00:01; 2
-afiseaza_cereri_in_asteptare; Ion Popescu
-adauga_utilizator; angajat; Irina Manole; SBP
-cerere_noua; Irina Manole; inlocuire buletin; 12-Dec-1999 23:00:00; 3
-cerere_noua; Irina Manole; inlocuire carnet de sofer; 11-Dec-1999 23:00:00; 3
-cerere_noua; Irina Manole; inlocuire buletin; 12-Dec-2000 23:00:00; 1
-afiseaza_cereri_in_asteptare; Irina Manole
-adauga_utilizator; persoana; Cristina Cristescu
-adauga_utilizator; angajat; Ana Anescu; Google
-adauga_utilizator; angajat; George Georgescu; Meta
-cerere_noua; Ana Anescu; inregistrare venit salarial; 10-Jan-2022 10:01:00; 3
-cerere_noua; Ana Anescu; inlocuire carnet de sofer; 10-Jan-2022 10:00:00; 3
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:04:00; 5
-cerere_noua; George Georgescu; inregistrare venit salarial; 10-Jan-2022 10:03:00; 4
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 10-Jan-2022 10:03:01; 2
-cerere_noua; George Georgescu; inlocuire buletin; 10-Jan-2022 10:02:00; 5
-afiseaza_cereri; angajat
-adauga_functionar; angajat; Alina Popescu
-adauga_functionar; angajat; Ion Popescu
-adauga_utilizator; persoana; Cristina Cristescu
-adauga_utilizator; angajat; Ana Anescu; Google
-adauga_utilizator; angajat; George Georgescu; Meta
-cerere_noua; Ana Anescu; inregistrare venit salarial; 10-Jan-2022 10:01:00; 3
-cerere_noua; Ana Anescu; inlocuire carnet de sofer; 10-Jan-2022 10:00:00; 3
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:04:00; 5
-cerere_noua; George Georgescu; inregistrare venit salarial; 10-Jan-2022 10:03:00; 4
-cerere_noua; George Georgescu; inlocuire carnet de sofer; 10-Jan-2022 10:03:01; 2
-cerere_noua; George Georgescu; inlocuire buletin; 10-Jan-2022 10:02:00; 5
-afiseaza_cereri; angajat
-adauga_utilizator; elev; George Georgescu; Scoala Generala Nr. 7
-adauga_utilizator; persoana; Cristina Cristescu
-adauga_functionar; elev; Ina Ionescu
-cerere_noua; Cristina Cristescu; inregistrare venit salarial; 10-Jan-2022 10:01:00; 3
-cerere_noua; Cristina Cristescu; inlocuire carnet de sofer; 10-Jan-2022 10:00:00; 3
-cerere_noua; Cristina Cristescu; inlocuire buletin; 10-Jan-2022 10:04:00; 5
-cerere_noua; George Georgescu; inlocuire carnet de elev; 11-Jan-2022 10:03:01; 4
-cerere_noua; George Georgescu; inlocuire buletin; 11-Jan-2022 10:03:00; 4
-cerere_noua; George Georgescu; inregistrare venit salarial; 11-Jan-2022 10:03:02; 5
-cerere_noua; George Georgescu; creare act constitutiv; 11-Jan-2022 10:03:03; 4
-cerere_noua; George Georgescu; inregistrare venit salarial; 11-Jan-2022 10:03:04; 4
-afiseaza_cereri; persoana
-adauga_utilizator; pensionar; Ana Anescu
-adauga_utilizator; entitate juridica; Ionescu SRL; Ion Ionescu
-cerere_noua; Ana Anescu; inregistrare venit salarial; 10-Jan-2022 10:01:01; 3
-cerere_noua; Ana Anescu; inregistrare cupoane de pensie; 10-Jan-2022 10:01:05; 5
-cerere_noua; Ana Anescu; inregistrare cupoane de pensie; 10-Jan-2022 10:01:03; 5
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:04; 2
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:07; 4
-cerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:01; 3
-cerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:05; 5
-cerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:03; 5
-cerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:04; 2
-cerere_noua; Ionescu SRL; reinnoire autorizatie; 11-Jan-2022 10:01:07; 4
-adauga_functionar; pensionar; Andra Functionarescu
-adauga_functionar; entitate juridica; Mihai Functionarescu
-adauga_utilizator; pensionar; Monica Margescu
-adauga_utilizator; entitate juridica; John SRL; John Smith
-cerere_noua; Monica Margescu; inlocuire carnet de sofer; 13-Jan-2022 10:01:01; 3
-cerere_noua; Monica Margescu; inregistrare cupoane de pensie; 13-Jan-2022 10:01:05; 5
-cerere_noua; Monica Margescu; inregistrare cupoane de pensie; 13-Jan-2022 10:01:03; 5
-cerere_noua; John SRL; creare act constitutiv; 16-Jan-2022 10:01:01; 3
-cerere_noua; John SRL; reinnoire autorizatie; 16-Jan-2022 10:01:05; 5
-cerere_noua; John SRL; creare act constitutiv; 16-Jan-2022 10:01:03; 5
-cerere_noua; John SRL; reinnoire autorizatie; 16-Jan-2022 10:01:04; 2
-afiseaza_cereri; pensionar
-adauga_utilizator; persoana; Ana Anescu
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:01; 3
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:03; 2
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:02; 3
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:04; 4
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:05; 5
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:07; 2
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:06; 1
-cerere_noua; Ana Anescu; inlocuire buletin; 10-Jan-2022 10:01:09; 3
-afiseaza_cereri; persoana
-adauga_utilizator; angajat; Irina Manole; SBP
-cerere_noua; Irina Manole; inlocuire buletin; 12-Dec-1999 23:00:00; 3
-cerere_noua; Irina Manole; inlocuire carnet de sofer; 11-Dec-1999 23:00:00; 3
-cerere_noua; Irina Manole; inlocuire buletin; 12-Dec-2000 23:00:00; 1
-afiseaza_cereri_in_asteptare; Irina Manole
-retrage_cerere; Irina Manole; 12-Dec-1999 23:00:00
-afiseaza_cereri_in_asteptare; Irina Manole
-adauga_utilizator; angajat; Irina Manole; SBP
-cerere_noua; Irina Manole; inlocuire buletin; 10-Jan-2022 23:00:00; 4
-cerere_noua; Irina Manole; inlocuire carnet de elev; 11-Dec-2022 23:00:00; 2
-cerere_noua; Irina Manole; inlocuire buletin; 11-Dec-2022 23:00:00; 2
-cerere_noua; Irina Manole; inlocuire buletin; 11-Dec-2022 00:00:00; 2
-cerere_noua; Irina Manole; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
-cerere_noua; Irina Manole; inlocuire buletin; 19-Nov-2022 23:00:00; 1
-afiseaza_cereri_in_asteptare; Irina Manole
-retrage_cerere; Irina Manole; 11-Dec-2022 23:00:00
-afiseaza_cereri_in_asteptare; Irina Manole
-adauga_utilizator; elev; Ioana Pop; Scoala Generala Nr. 2
-cerere_noua; Ioana Pop; inlocuire buletin; 10-Jan-2022 23:00:00; 4
-cerere_noua; Ioana Pop; inlocuire carnet de elev; 11-Dec-2022 23:00:00; 2
-cerere_noua; Ioana Pop; inlocuire buletin; 11-Dec-2022 23:00:01; 2
-cerere_noua; Ioana Pop; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
-cerere_noua; Ioana Pop; inlocuire buletin; 19-Nov-2022 23:59:00; 1
-afiseaza_cereri_in_asteptare; Ioana Pop
-retrage_cerere; Ioana Pop; 19-Nov-2022 23:59:00
-retrage_cerere; Ioana Pop; 10-Jan-2022 23:00:00
-retrage_cerere; Ioana Pop; 11-Dec-2022 23:00:00
-afiseaza_cereri_in_asteptare; Ioana Pop
-adauga_utilizator; pensionar; Ion Popescu
-cerere_noua; Ion Popescu; inlocuire carnet de elev; 11-Dec-2022 23:00:00; 2
-cerere_noua; Ion Popescu; inlocuire buletin; 10-Jan-2022 23:00:00; 4
-cerere_noua; Ion Popescu; inlocuire carnet de sofer; 11-Dec-2022 23:00:01; 2
-cerere_noua; Ion Popescu; inregistrare venit salarial; 17-Dec-2022 23:59:00; 3
-cerere_noua; Ion Popescu; inregistrare cupoane de pensie; 19-Nov-2022 23:59:00; 1
-afiseaza_cereri_in_asteptare; Ion Popescu
-retrage_cerere; Ion Popescu; 10-Jan-2022 23:00:00
-retrage_cerere; Ion Popescu; 19-Nov-2022 23:59:00
-afiseaza_cereri_in_asteptare; Ion Popescu
-adauga_utilizator; entitate juridica; IP SRL; Ion Popescu
-cerere_noua; IP SRL; creare act constitutiv; 11-Dec-2022 23:00:00; 2
-cerere_noua; IP SRL; reinnoire autorizatie; 10-Jan-2022 23:00:00; 4
-cerere_noua; IP SRL; inlocuire carnet de sofer; 11-Dec-2022 23:00:01; 2
-afiseaza_cereri_in_asteptare; IP SRL
-retrage_cerere; IP SRL; 10-Jan-2022 23:00:00
-afiseaza_cereri_in_asteptare; IP SRL
-adauga_utilizator; persoana; Ion Popescu
-cerere_noua; Ion Popescu; inlocuire buletin; 11-Dec-2022 23:00:00; 2
-cerere_noua; Ion Popescu; inlocuire carnet de sofer; 10-Jan-2022 23:00:00; 4
-cerere_noua; Ion Popescu; inlocuire carnet de sofer; 11-Dec-2022 23:00:01; 2
-cerere_noua; Ion Popescu; creare act constitutiv; 11-Dec-2022 23:00:01; 2
-afiseaza_cereri_in_asteptare; Ion Popescu
-retrage_cerere; Ion Popescu; 11-Dec-2022 23:00:01
-afiseaza_cereri_in_asteptare; Ion Popescu
+<pre>////
+INLOCUIRE_BULETIN##Alina Ionescu
+INLOCUIRE_BULETIN##Alina Ionescu
+INREGISTRARE_VENIT_SALARIAL##Alina Ionescu
+INLOCUIRE_CARNET_DE_SOFER##Alina Ionescu
+
+////
+REINNOIRE_AUTORIZATIE##CC SRL
+INREGISTRARE_VENIT_SALARIAL##CC SRL
+null##CC SRL
+null##CC SRL
+
+////
+INLOCUIRE_BULETIN##Ion Popescu
+INREGISTRARE_VENIT_SALARIAL##Ion Popescu
+
+////
+INLOCUIRE_CARNET_DE_ELEV##John Smith
+INLOCUIRE_BULETIN##John Smith
+INLOCUIRE_CARNET_DE_ELEV##John Smith
+INLOCUIRE_BULETIN##John Smith
+
+////
+INREGISTRARE_VENIT_SALARIAL##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+
+////
+REINNOIRE_AUTORIZATIE##CC SRL
+INREGISTRARE_VENIT_SALARIAL##CC SRL
+null##CC SRL
+null##CC SRL
+
+////
+INREGISTRARE_VENIT_SALARIAL##Alina Ionescu
+INLOCUIRE_CARNET_DE_SOFER##Alina Ionescu
+INLOCUIRE_BULETIN##Alina Ionescu
+INLOCUIRE_BULETIN##Alina Ionescu
+
+////
+INLOCUIRE_BULETIN##Ion Popescu
+INREGISTRARE_VENIT_SALARIAL##Ion Popescu
+
+////
+INLOCUIRE_CARNET_DE_ELEV##John Smith
+INLOCUIRE_BULETIN##John Smith
+INLOCUIRE_CARNET_DE_ELEV##John Smith
+INLOCUIRE_BULETIN##John Smith
+
+////
+INREGISTRARE_VENIT_SALARIAL##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+
+////
+REINNOIRE_AUTORIZATIE##CC SRL
+INREGISTRARE_VENIT_SALARIAL##CC SRL
+null##CC SRL
+null##CC SRL
+
+////
+INREGISTRARE_VENIT_SALARIAL##Alina Ionescu
+INLOCUIRE_CARNET_DE_SOFER##Alina Ionescu
+INLOCUIRE_BULETIN##Alina Ionescu
+INLOCUIRE_BULETIN##Alina Ionescu
+
+////
+INLOCUIRE_BULETIN##Ion Popescu
+INREGISTRARE_VENIT_SALARIAL##Ion Popescu
+
+////
+INLOCUIRE_CARNET_DE_ELEV##John Smith
+INLOCUIRE_BULETIN##John Smith
+INLOCUIRE_CARNET_DE_ELEV##John Smith
+INLOCUIRE_BULETIN##John Smith
+
+////
+INREGISTRARE_VENIT_SALARIAL##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##Mara Margescu
+INLOCUIRE_CARNET_DE_SOFER##Mara Margescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##Mara Margescu
+INLOCUIRE_CARNET_DE_SOFER##Mara Margescu
+
+////
+INLOCUIRE_CARNET_DE_SOFER##Ion Popescu
+REINNOIRE_AUTORIZATIE##Ion Popescu
+INLOCUIRE_BULETIN##Ion Popescu
+
+////
+INLOCUIRE_BULETIN##Irina Manole
+INLOCUIRE_CARNET_DE_SOFER##Irina Manole
+INLOCUIRE_BULETIN##Irina Manole
+
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+////
+INREGISTRARE_VENIT_SALARIAL##Ana Anescu
+INLOCUIRE_CARNET_DE_SOFER##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+INREGISTRARE_VENIT_SALARIAL##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+INLOCUIRE_BULETIN##George Georgescu
+
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+////
+INREGISTRARE_VENIT_SALARIAL##Ana Anescu
+INLOCUIRE_CARNET_DE_SOFER##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+INREGISTRARE_VENIT_SALARIAL##George Georgescu
+INLOCUIRE_CARNET_DE_SOFER##George Georgescu
+INLOCUIRE_BULETIN##George Georgescu
+
+Subsemnatul Cristina Cristescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul Cristina Cristescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul Cristina Cristescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul George Georgescu,elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+Subsemnatul George Georgescu,elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul George Georgescu,elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+Subsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+Subsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+Subsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+Subsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+Subsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+////
+INLOCUIRE_BULETIN##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+INLOCUIRE_BULETIN##Ana Anescu
+
+////
+INLOCUIRE_BULETIN##Irina Manole
+INLOCUIRE_CARNET_DE_SOFER##Irina Manole
+INLOCUIRE_BULETIN##Irina Manole
+
+////
+INLOCUIRE_BULETIN##Irina Manole
+INLOCUIRE_CARNET_DE_ELEV##Irina Manole
+INLOCUIRE_BULETIN##Irina Manole
+INLOCUIRE_BULETIN##Irina Manole
+INREGISTRARE_VENIT_SALARIAL##Irina Manole
+INLOCUIRE_BULETIN##Irina Manole
+
+////
+INLOCUIRE_BULETIN##Ioana Pop
+INLOCUIRE_CARNET_DE_ELEV##Ioana Pop
+INLOCUIRE_BULETIN##Ioana Pop
+INREGISTRARE_VENIT_SALARIAL##Ioana Pop
+INLOCUIRE_BULETIN##Ioana Pop
+
+////
+INLOCUIRE_CARNET_DE_ELEV##Ion Popescu
+INLOCUIRE_BULETIN##Ion Popescu
+INLOCUIRE_CARNET_DE_SOFER##Ion Popescu
+INREGISTRARE_VENIT_SALARIAL##Ion Popescu
+INREGISTRARE_CUPOANE_DE_PENSIE##Ion Popescu
+
+////
+null##IP SRL
+REINNOIRE_AUTORIZATIE##IP SRL
+INLOCUIRE_CARNET_DE_SOFER##IP SRL
+
+////
+INLOCUIRE_BULETIN##Ion Popescu
+INLOCUIRE_CARNET_DE_SOFER##Ion Popescu
+INLOCUIRE_CARNET_DE_SOFER##Ion Popescu
+null##Ion Popescu
+
 </pre>
 </span>
 </div>
@@ -1957,7 +1947,7 @@ afiseaza_cereri_in_asteptare; Ion Popescu
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.2</a> at Dec 24, 2022, 5:11:04 PM</p>
+<a href="http://www.gradle.org">Gradle 7.2</a> at Dec 26, 2022, 11:23:35 AM</p>
 </div>
 </div>
 </body>

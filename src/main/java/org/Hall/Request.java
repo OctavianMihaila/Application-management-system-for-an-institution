@@ -1,23 +1,37 @@
 package org.Hall;
 
-public class Request {
+import Users.User;
 
-    private enum Type {
-        INLOCUIRE_BULETIN,
-        INREGISTRARE_VENIT_SALARIAL,
-        INLOCUIRE_CARNET_DE_SOFER,
-        INLOCUIRE_CARNET_DE_ELEV,
-        CREARE_ACT_CONSTITUTIV,
-        REINNOIRE_AUTORIZATIE,
-        INREGISTRARE_CUPOANE_DE_PENSIE;
-    }
+public class Request implements Comparable<Request> {
+    private String username; //TODO posibil sa nu fie nevoie de el
 
-    private String name;
+    private RequestType type;
     private String dateAndTime;
     private Integer priority;
 
-//    public SendToOfficeQueue() {
+    public String getUsername() {
+        return username;
+    }
+
+    public RequestType getType() {
+        return type;
+    }
+
+    @Override
+    public int compareTo(Request o) {
+        return 0;
+    }
+
+    public Request(String username, String requestType, String dateAndTime, Integer priority) {
+        this.username = username;
+        this.type = RequestType.valueOfInput(requestType);
+        this.dateAndTime = dateAndTime;
+        this.priority = priority;
+    }
+
+    //    public SendToOfficeQueue() {
 //    }
+
 
 
 }
