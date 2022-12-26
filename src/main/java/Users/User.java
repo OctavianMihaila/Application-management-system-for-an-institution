@@ -3,15 +3,17 @@ package Users;
 import Utils.Parser;
 import org.Hall.*;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.text.SimpleDateFormat;
+import java.util.*;
 
 public abstract class User {
 
     protected String username;
     protected UserType userType;
     private List<Request> pendingRequests = new ArrayList<>();
-    List<RequestType> allowedRequests = new ArrayList<>();
+
+    private List<Request> finishedRequests = new ArrayList<>();
+    protected List<RequestType> allowedRequests = new ArrayList<>();
 
     public UserType getUserType() {
         return userType;
@@ -34,6 +36,61 @@ public abstract class User {
 
     public void addPendingRequest(Request pendingRequest) {
         this.pendingRequests.add(pendingRequest);
+    }
+
+    public void addFinishedRequest(Request finishedRequest) {
+        this.finishedRequests.add(finishedRequest);
+    }
+
+    public String getRepresentant() {
+        return username;
+    }
+
+    /**
+     * Generates a list of strings containing the requests. If pendingOrFinished is true,
+     * then the list will contain pending requests. Otherwise, finished requests.
+     * @param pendingOrFinished
+     * @return
+     */
+    public List<String> getRequestsAsStrings(Boolean pendingOrFinished) {
+        List<String> content = new ArrayList<>();
+        SimpleDateFormat formater = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss");
+        List<Request> requests;
+
+        if (pendingOrFinished == true) {
+            content.add(getRepresentant() + " - cereri in asteptare:" + "\n");
+            requests = this.pendingRequests;
+
+        } else {
+            content.add(getRepresentant() + " - cereri in finalizate:" + "\n");
+            requests = this.finishedRequests;
+        }
+
+        Collections.sort(requests, new Comparator<Request>() {
+            @Override
+            public int compare(Request o1, Request o2) {
+                return o1.getDateAndTime().compareTo(o2.getDateAndTime());
+            }
+        });
+
+        for (Request r: requests) {
+            content.add(formater.format(r.getDateAndTime()) + " - " + this.writeRequest(r.getType().getValue()) + "\n");
+        }
+
+        return content;
+    }
+
+    public List<RequestType> getAllowedRequests() {
+        return allowedRequests;
+    }
+
+    public void deleteRequest(Date dateAndTime) {
+        for (Request r: this.pendingRequests) {
+            if (r.getDateAndTime().equals(dateAndTime)) {
+                this.pendingRequests.remove(r);
+                return;
+            }
+        }
     }
 
     public static class IncorrectUserTypeException extends Exception {
@@ -70,7 +127,8 @@ public abstract class User {
                 return new Student(userType, username, userAttribute);
 
             case ENTITATE_JURIDICA:
-                return new LegalEntity(userType, username, userAttribute);
+                //String representative = parser.getFourthAttribute();
+                return new LegalEntity(userType, userAttribute, username);
 
             default:
                 throw new IncorrectUserTypeException(type);

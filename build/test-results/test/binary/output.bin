@@ -1,232 +1,307 @@
-////
-!INLOCUIRE_BULETIN##Alina Ionescu
-!INLOCUIRE_BULETIN##Alina Ionescu
-+INREGISTRARE_VENIT_SALARIAL##Alina Ionescu
-)INLOCUIRE_CARNET_DE_SOFER##Alina Ionescu
-
-////
-REINNOIRE_AUTORIZATIE##CC SRL
-$INREGISTRARE_VENIT_SALARIAL##CC SRL
-null##CC SRL
-null##CC SRL
-
-////
-INLOCUIRE_BULETIN##Ion Popescu
-)INREGISTRARE_VENIT_SALARIAL##Ion Popescu
-
-////
-%INLOCUIRE_CARNET_DE_ELEV##John Smith
-INLOCUIRE_BULETIN##John Smith
-%INLOCUIRE_CARNET_DE_ELEV##John Smith
-INLOCUIRE_BULETIN##John Smith
-
-////
-.INREGISTRARE_VENIT_SALARIAL##George Georgescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-
-////
-REINNOIRE_AUTORIZATIE##CC SRL
-$INREGISTRARE_VENIT_SALARIAL##CC SRL
-null##CC SRL
-null##CC SRL
-
-////
-+INREGISTRARE_VENIT_SALARIAL##Alina Ionescu
-)INLOCUIRE_CARNET_DE_SOFER##Alina Ionescu
-!INLOCUIRE_BULETIN##Alina Ionescu
-!INLOCUIRE_BULETIN##Alina Ionescu
-
-////
-INLOCUIRE_BULETIN##Ion Popescu
-)INREGISTRARE_VENIT_SALARIAL##Ion Popescu
-
-////
-%INLOCUIRE_CARNET_DE_ELEV##John Smith
-INLOCUIRE_BULETIN##John Smith
-%INLOCUIRE_CARNET_DE_ELEV##John Smith
-INLOCUIRE_BULETIN##John Smith
-
-////
-.INREGISTRARE_VENIT_SALARIAL##George Georgescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-
-////
-REINNOIRE_AUTORIZATIE##CC SRL
-$INREGISTRARE_VENIT_SALARIAL##CC SRL
-null##CC SRL
-null##CC SRL
-
-////
-+INREGISTRARE_VENIT_SALARIAL##Alina Ionescu
-)INLOCUIRE_CARNET_DE_SOFER##Alina Ionescu
-!INLOCUIRE_BULETIN##Alina Ionescu
-!INLOCUIRE_BULETIN##Alina Ionescu
-
-////
-INLOCUIRE_BULETIN##Ion Popescu
-)INREGISTRARE_VENIT_SALARIAL##Ion Popescu
-
-////
-%INLOCUIRE_CARNET_DE_ELEV##John Smith
-INLOCUIRE_BULETIN##John Smith
-%INLOCUIRE_CARNET_DE_ELEV##John Smith
-INLOCUIRE_BULETIN##John Smith
-
-////
-.INREGISTRARE_VENIT_SALARIAL##George Georgescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-)INLOCUIRE_CARNET_DE_SOFER##Mara Margescu
-)INLOCUIRE_CARNET_DE_SOFER##Mara Margescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-)INLOCUIRE_CARNET_DE_SOFER##Mara Margescu
-)INLOCUIRE_CARNET_DE_SOFER##Mara Margescu
-
-////
-'INLOCUIRE_CARNET_DE_SOFER##Ion Popescu
-#REINNOIRE_AUTORIZATIE##Ion Popescu
-INLOCUIRE_BULETIN##Ion Popescu
-
-////
- INLOCUIRE_BULETIN##Irina Manole
-(INLOCUIRE_CARNET_DE_SOFER##Irina Manole
- INLOCUIRE_BULETIN##Irina Manole
-
-|Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-zSubsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-rSubsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-ÄSubsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-~Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-vSubsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-////
-(INREGISTRARE_VENIT_SALARIAL##Ana Anescu
-&INLOCUIRE_CARNET_DE_SOFER##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-.INREGISTRARE_VENIT_SALARIAL##George Georgescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-$INLOCUIRE_BULETIN##George Georgescu
-
-|Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-zSubsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-rSubsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-ÄSubsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-~Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-vSubsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-|Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-zSubsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-rSubsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-ÄSubsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-~Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-vSubsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-|Subsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-zSubsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-rSubsemnatul Ana Anescu,angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-ÄSubsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-~Subsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-vSubsemnatul George Georgescu,angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-////
-(INREGISTRARE_VENIT_SALARIAL##Ana Anescu
-&INLOCUIRE_CARNET_DE_SOFER##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-.INREGISTRARE_VENIT_SALARIAL##George Georgescu
-,INLOCUIRE_CARNET_DE_SOFER##George Georgescu
-$INLOCUIRE_BULETIN##George Georgescu
-
-	iSubsemnatul Cristina Cristescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
-	gSubsemnatul Cristina Cristescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
-	_Subsemnatul Cristina Cristescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-	âSubsemnatul George Georgescu,elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
-	ÇSubsemnatul George Georgescu,elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-	åSubsemnatul George Georgescu,elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ZUtilizatorul de tip persoana nu poate inainta o cerere de tip inregistrare venit salarial
+%Alina Ionescu - cereri in asteptare:
+ï19-Nov-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ç11-Dec-2022 00:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ç11-Dec-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ó17-Dec-2022 23:59:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+#Ion Popescu - cereri in asteptare:
+o10-Jan-2022 23:00:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+cUtilizatorul de tip entitate juridica nu poate inainta o cerere de tip inregistrare venit salarial
+[Utilizatorul de tip pensionar nu poate inainta o cerere de tip inregistrare venit salarial
+CC SRL - cereri in asteptare:
+¢10-Jan-2022 10:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+£11-Dec-2022 15:15:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+£11-Dec-2022 20:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+(George Georgescu - cereri in asteptare:
+|19-Nov-2022 11:00:00 - Subsemnatul George Georgescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+"John Smith - cereri in asteptare:
+ô10-Sep-2022 10:00:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+ô11-Sep-2022 15:15:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+í11-Sep-2022 22:00:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+%Alina Ionescu - cereri in asteptare:
+ï19-Nov-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ç11-Dec-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+CC SRL - cereri in asteptare:
+£11-Dec-2022 15:15:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+£11-Dec-2022 20:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+(George Georgescu - cereri in asteptare:
+|19-Nov-2022 11:00:10 - Subsemnatul George Georgescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+cUtilizatorul de tip entitate juridica nu poate inainta o cerere de tip inregistrare venit salarial
+[Utilizatorul de tip pensionar nu poate inainta o cerere de tip inregistrare venit salarial
+ZUtilizatorul de tip persoana nu poate inainta o cerere de tip inregistrare venit salarial
+%Alina Ionescu - cereri in asteptare:
+ï19-Nov-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ç11-Dec-2022 00:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ç11-Dec-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ó17-Dec-2022 23:59:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+#Ion Popescu - cereri in asteptare:
+o10-Jan-2022 23:00:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+CC SRL - cereri in asteptare:
+¢10-Jan-2022 10:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+£11-Dec-2022 15:15:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+£11-Dec-2022 20:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+(George Georgescu - cereri in asteptare:
+|19-Nov-2022 11:00:00 - Subsemnatul George Georgescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+"John Smith - cereri in asteptare:
+ô10-Sep-2022 10:00:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+ô11-Sep-2022 15:15:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+í11-Sep-2022 22:00:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+%Alina Ionescu - cereri in asteptare:
+ï19-Nov-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ç11-Dec-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+CC SRL - cereri in asteptare:
+£11-Dec-2022 15:15:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+£11-Dec-2022 20:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+(George Georgescu - cereri in asteptare:
+|19-Nov-2022 11:00:10 - Subsemnatul George Georgescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+cUtilizatorul de tip entitate juridica nu poate inainta o cerere de tip inregistrare venit salarial
+[Utilizatorul de tip pensionar nu poate inainta o cerere de tip inregistrare venit salarial
+ZUtilizatorul de tip persoana nu poate inainta o cerere de tip inregistrare venit salarial
+%Alina Ionescu - cereri in asteptare:
+ï19-Nov-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ç11-Dec-2022 00:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ç11-Dec-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ó17-Dec-2022 23:59:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+#Ion Popescu - cereri in asteptare:
+o10-Jan-2022 23:00:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+CC SRL - cereri in asteptare:
+¢10-Jan-2022 10:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+£11-Dec-2022 15:15:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+£11-Dec-2022 20:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+(George Georgescu - cereri in asteptare:
+|19-Nov-2022 11:00:00 - Subsemnatul George Georgescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+"John Smith - cereri in asteptare:
+ô10-Sep-2022 10:00:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+ô11-Sep-2022 15:15:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+í11-Sep-2022 22:00:00 - Subsemnatul John Smith, elev la scoala High School Musical, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+%Alina Ionescu - cereri in asteptare:
+ï19-Nov-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ç11-Dec-2022 23:00:00 - Subsemnatul Alina Ionescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+CC SRL - cereri in asteptare:
+£11-Dec-2022 15:15:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+£11-Dec-2022 20:00:00 - Subsemnatul Cristina Cristescu, reprezentant legal al companiei CC SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+(George Georgescu - cereri in asteptare:
+|19-Nov-2022 11:00:10 - Subsemnatul George Georgescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+%Mara Margescu - cereri in asteptare:
+y25-Nov-2022 11:00:08 - Subsemnatul Mara Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+y25-Nov-2022 11:00:09 - Subsemnatul Mara Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+y25-Nov-2022 11:00:10 - Subsemnatul Mara Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+y25-Nov-2022 11:00:11 - Subsemnatul Mara Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+(George Georgescu - cereri in asteptare:
+|19-Nov-2022 11:00:10 - Subsemnatul George Georgescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+|25-Nov-2022 11:00:12 - Subsemnatul George Georgescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+SUtilizatorul de tip angajat nu poate inainta o cerere de tip reinnoire autorizatie
+#Ion Popescu - cereri in asteptare:
+ì11-Dec-2022 23:00:00 - Subsemnatul Ion Popescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ã11-Dec-2022 23:00:01 - Subsemnatul Ion Popescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+$Irina Manole - cereri in asteptare:
+ë11-Dec-1999 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+â12-Dec-1999 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+â12-Dec-2000 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+angajat - cereri in birou:
+í5 - 10-Jan-2022 10:02:00 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+é5 - 10-Jan-2022 10:04:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ú4 - 10-Jan-2022 10:03:00 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ñ3 - 10-Jan-2022 10:00:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ò3 - 10-Jan-2022 10:01:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ö2 - 10-Jan-2022 10:03:01 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+angajat - cereri in birou:
+í5 - 10-Jan-2022 10:02:00 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+é5 - 10-Jan-2022 10:04:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ú4 - 10-Jan-2022 10:03:00 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ñ3 - 10-Jan-2022 10:00:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ò3 - 10-Jan-2022 10:01:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ö2 - 10-Jan-2022 10:03:01 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+angajat - cereri in birou:
+é5 - 10-Jan-2022 10:04:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ú4 - 10-Jan-2022 10:03:00 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ñ3 - 10-Jan-2022 10:00:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ò3 - 10-Jan-2022 10:01:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ö2 - 10-Jan-2022 10:03:01 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+angajat - cereri in birou:
+ú4 - 10-Jan-2022 10:03:00 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ñ3 - 10-Jan-2022 10:00:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+ò3 - 10-Jan-2022 10:01:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ö2 - 10-Jan-2022 10:03:01 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+"Ana Anescu - cereri in asteptare:
+í10-Jan-2022 10:00:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+î10-Jan-2022 10:01:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+#Ana Anescu - cereri in finalizate:
+ä10-Jan-2022 10:04:00 - Subsemnatul Ana Anescu, angajat la compania Google, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+(George Georgescu - cereri in asteptare:
+ò10-Jan-2022 10:03:00 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+ñ10-Jan-2022 10:03:01 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+)George Georgescu - cereri in finalizate:
+é10-Jan-2022 10:02:00 - Subsemnatul George Georgescu, angajat la compania Meta, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+)10-Jan-2022 10:02:00 - George Georgescu
+#10-Jan-2022 10:04:00 - Ana Anescu
+	ZUtilizatorul de tip persoana nu poate inainta o cerere de tip inregistrare venit salarial
+	VUtilizatorul de tip elev nu poate inainta o cerere de tip inregistrare venit salarial
+	QUtilizatorul de tip elev nu poate inainta o cerere de tip creare act constitutiv
+	VUtilizatorul de tip elev nu poate inainta o cerere de tip inregistrare venit salarial
+	persoana - cereri in birou:
+	z5 - 10-Jan-2022 10:04:00 - Subsemnatul Cristina Cristescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+	Ç3 - 10-Jan-2022 10:00:00 - Subsemnatul Cristina Cristescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+	elev - cereri in birou:
+	û4 - 11-Jan-2022 10:03:00 - Subsemnatul George Georgescu, elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+	•4 - 11-Jan-2022 10:03:01 - Subsemnatul George Georgescu, elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+	)George Georgescu - cereri in finalizate:
+	°11-Jan-2022 10:03:01 - Subsemnatul George Georgescu, elev la scoala Scoala Generala Nr. 7, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+	)11-Jan-2022 10:03:01 - George Georgescu
 
-aSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+[Utilizatorul de tip pensionar nu poate inainta o cerere de tip inregistrare venit salarial
 
-dSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+pensionar - cereri in birou:
 
-dSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+5 - 10-Jan-2022 10:01:03 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
 
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+5 - 10-Jan-2022 10:01:05 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
 
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+Ñ5 - 13-Jan-2022 10:01:03 - Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
 
-dSubsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+Ñ5 - 13-Jan-2022 10:01:05 - Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
 
-iSubsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+r4 - 10-Jan-2022 10:01:07 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
 
-iSubsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+3 - 13-Jan-2022 10:01:01 - Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
 
-àSubsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+r2 - 10-Jan-2022 10:01:04 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
 
-àSubsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+%entitate juridica - cereri in birou:
 
-àSubsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+§5 - 11-Jan-2022 10:01:03 - Subsemnatul Ion Ionescu, reprezentant legal al companiei Ionescu SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
 
-àSubsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+§5 - 11-Jan-2022 10:01:05 - Subsemnatul Ion Ionescu, reprezentant legal al companiei Ionescu SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
 
-àSubsemnatul Ionescu SRL,reprezentant legal al companiei Ion Ionescu, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-WSubsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
-////
-INLOCUIRE_BULETIN##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-INLOCUIRE_BULETIN##Ana Anescu
-
-////
- INLOCUIRE_BULETIN##Irina Manole
-(INLOCUIRE_CARNET_DE_SOFER##Irina Manole
- INLOCUIRE_BULETIN##Irina Manole
-
-////
- INLOCUIRE_BULETIN##Irina Manole
-'INLOCUIRE_CARNET_DE_ELEV##Irina Manole
- INLOCUIRE_BULETIN##Irina Manole
- INLOCUIRE_BULETIN##Irina Manole
-*INREGISTRARE_VENIT_SALARIAL##Irina Manole
- INLOCUIRE_BULETIN##Irina Manole
-
-////
-INLOCUIRE_BULETIN##Ioana Pop
-$INLOCUIRE_CARNET_DE_ELEV##Ioana Pop
-INLOCUIRE_BULETIN##Ioana Pop
-'INREGISTRARE_VENIT_SALARIAL##Ioana Pop
-INLOCUIRE_BULETIN##Ioana Pop
-
-////
-&INLOCUIRE_CARNET_DE_ELEV##Ion Popescu
-INLOCUIRE_BULETIN##Ion Popescu
-'INLOCUIRE_CARNET_DE_SOFER##Ion Popescu
-)INREGISTRARE_VENIT_SALARIAL##Ion Popescu
-,INREGISTRARE_CUPOANE_DE_PENSIE##Ion Popescu
-
-////
-null##IP SRL
-REINNOIRE_AUTORIZATIE##IP SRL
-"INLOCUIRE_CARNET_DE_SOFER##IP SRL
-
-////
-INLOCUIRE_BULETIN##Ion Popescu
-'INLOCUIRE_CARNET_DE_SOFER##Ion Popescu
-'INLOCUIRE_CARNET_DE_SOFER##Ion Popescu
-null##Ion Popescu
-
+°5 - 16-Jan-2022 10:01:03 - Subsemnatul John Smith, reprezentant legal al companiei John SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+
+†5 - 16-Jan-2022 10:01:05 - Subsemnatul John Smith, reprezentant legal al companiei John SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+
+§4 - 11-Jan-2022 10:01:07 - Subsemnatul Ion Ionescu, reprezentant legal al companiei Ionescu SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+
+§3 - 11-Jan-2022 10:01:01 - Subsemnatul Ion Ionescu, reprezentant legal al companiei Ionescu SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+
+°3 - 16-Jan-2022 10:01:01 - Subsemnatul John Smith, reprezentant legal al companiei John SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+
+§2 - 11-Jan-2022 10:01:04 - Subsemnatul Ion Ionescu, reprezentant legal al companiei Ionescu SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+
+†2 - 16-Jan-2022 10:01:04 - Subsemnatul John Smith, reprezentant legal al companiei John SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+
+"Ana Anescu - cereri in asteptare:
+
+n10-Jan-2022 10:01:04 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+
+n10-Jan-2022 10:01:07 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+
+#Ana Anescu - cereri in finalizate:
+
+{10-Jan-2022 10:01:05 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+
+'Monica Margescu - cereri in asteptare:
+
+{13-Jan-2022 10:01:01 - Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+
+(Monica Margescu - cereri in finalizate:
+
+Ä13-Jan-2022 10:01:03 - Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+
+Ä13-Jan-2022 10:01:05 - Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+
+pensionar - cereri in birou:
+
+r4 - 10-Jan-2022 10:01:07 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+
+3 - 13-Jan-2022 10:01:01 - Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+
+r2 - 10-Jan-2022 10:01:04 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+
+%entitate juridica - cereri in birou:
+
+°3 - 16-Jan-2022 10:01:01 - Subsemnatul John Smith, reprezentant legal al companiei John SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+
+§2 - 11-Jan-2022 10:01:04 - Subsemnatul Ion Ionescu, reprezentant legal al companiei Ionescu SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+
+†2 - 16-Jan-2022 10:01:04 - Subsemnatul John Smith, reprezentant legal al companiei John SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+
+$11-Jan-2022 10:01:03 - Ionescu SRL
+
+!16-Jan-2022 10:01:03 - John SRL
+
+$11-Jan-2022 10:01:07 - Ionescu SRL
+
+$11-Jan-2022 10:01:05 - Ionescu SRL
+
+!16-Jan-2022 10:01:05 - John SRL
+
+$11-Jan-2022 10:01:01 - Ionescu SRL
+
+#10-Jan-2022 10:01:05 - Ana Anescu
+
+(13-Jan-2022 10:01:03 - Monica Margescu
+
+(13-Jan-2022 10:01:05 - Monica Margescu
+persoana - cereri in birou:
+r5 - 10-Jan-2022 10:01:05 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+r4 - 10-Jan-2022 10:01:04 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+r3 - 10-Jan-2022 10:01:01 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+r3 - 10-Jan-2022 10:01:02 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+r3 - 10-Jan-2022 10:01:09 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+r2 - 10-Jan-2022 10:01:03 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+r2 - 10-Jan-2022 10:01:07 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+r1 - 10-Jan-2022 10:01:06 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+persoana - cereri in birou:
+r3 - 10-Jan-2022 10:01:09 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+"Ana Anescu - cereri in asteptare:
+n10-Jan-2022 10:01:09 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+#Ana Anescu - cereri in finalizate:
+n10-Jan-2022 10:01:01 - Subsemnatul Ana Anescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+#10-Jan-2022 10:01:01 - Ana Anescu
+$Irina Manole - cereri in asteptare:
+ë11-Dec-1999 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+â12-Dec-1999 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+â12-Dec-2000 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+$Irina Manole - cereri in asteptare:
+ë11-Dec-1999 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+â12-Dec-2000 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+VUtilizatorul de tip angajat nu poate inainta o cerere de tip inlocuire carnet de elev
+$Irina Manole - cereri in asteptare:
+â10-Jan-2022 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+â19-Nov-2022 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+â11-Dec-2022 00:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+â11-Dec-2022 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ì17-Dec-2022 23:59:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+$Irina Manole - cereri in asteptare:
+â10-Jan-2022 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+â19-Nov-2022 23:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+â11-Dec-2022 00:00:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ì17-Dec-2022 23:59:00 - Subsemnatul Irina Manole, angajat la compania SBP, va rog sa-mi aprobati urmatoarea solicitare: inregistrare venit salarial
+VUtilizatorul de tip elev nu poate inainta o cerere de tip inregistrare venit salarial
+!Ioana Pop - cereri in asteptare:
+ì10-Jan-2022 23:00:00 - Subsemnatul Ioana Pop, elev la scoala Scoala Generala Nr. 2, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ì19-Nov-2022 23:59:00 - Subsemnatul Ioana Pop, elev la scoala Scoala Generala Nr. 2, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+ö11-Dec-2022 23:00:00 - Subsemnatul Ioana Pop, elev la scoala Scoala Generala Nr. 2, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de elev
+ì11-Dec-2022 23:00:01 - Subsemnatul Ioana Pop, elev la scoala Scoala Generala Nr. 2, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+!Ioana Pop - cereri in asteptare:
+ì11-Dec-2022 23:00:01 - Subsemnatul Ioana Pop, elev la scoala Scoala Generala Nr. 2, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+XUtilizatorul de tip pensionar nu poate inainta o cerere de tip inlocuire carnet de elev
+[Utilizatorul de tip pensionar nu poate inainta o cerere de tip inregistrare venit salarial
+#Ion Popescu - cereri in asteptare:
+o10-Jan-2022 23:00:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+|19-Nov-2022 23:59:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inregistrare cupoane de pensie
+w11-Dec-2022 23:00:01 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+#Ion Popescu - cereri in asteptare:
+w11-Dec-2022 23:00:01 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+aUtilizatorul de tip entitate juridica nu poate inainta o cerere de tip inlocuire carnet de sofer
+IP SRL - cereri in asteptare:
+õ10-Jan-2022 23:00:00 - Subsemnatul Ion Popescu, reprezentant legal al companiei IP SRL, va rog sa-mi aprobati urmatoarea solicitare: reinnoire autorizatie
+ú11-Dec-2022 23:00:00 - Subsemnatul Ion Popescu, reprezentant legal al companiei IP SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+IP SRL - cereri in asteptare:
+ú11-Dec-2022 23:00:00 - Subsemnatul Ion Popescu, reprezentant legal al companiei IP SRL, va rog sa-mi aprobati urmatoarea solicitare: creare act constitutiv
+UUtilizatorul de tip persoana nu poate inainta o cerere de tip creare act constitutiv
+#Ion Popescu - cereri in asteptare:
+w10-Jan-2022 23:00:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+o11-Dec-2022 23:00:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin
+w11-Dec-2022 23:00:01 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+#Ion Popescu - cereri in asteptare:
+w10-Jan-2022 23:00:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire carnet de sofer
+o11-Dec-2022 23:00:00 - Subsemnatul Ion Popescu, va rog sa-mi aprobati urmatoarea solicitare: inlocuire buletin

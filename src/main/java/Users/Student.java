@@ -14,7 +14,7 @@ public class Student extends User {
     }
 
     public String requestAsUser() {
-        return String.format("elev la scoala %s,", school);
+        return String.format(" elev la scoala %s,", school);
     }
 
 

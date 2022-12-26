@@ -8,7 +8,7 @@ public class Employee extends User {
 
     @Override
     public String requestAsUser() {
-        return String.format("angajat la compania %s,", company);
+        return String.format(" angajat la compania %s,", company);
     }
 
     public Employee(UserType userType, String username, String company) {

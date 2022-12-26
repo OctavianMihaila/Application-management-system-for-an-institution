@@ -2,9 +2,11 @@ package org.Hall;
 
 import Users.*;
 import Utils.Parser;
+import Utils.WriteFile;
 
 import java.io.*;
 import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
 
 import static Users.UserType.*;
@@ -48,7 +50,8 @@ public class ManagementPrimarie {
 
     public static User findUser(String username) {
         for (User u: users) {
-            if (u.getUsername().equals(username)) {
+            if (u.getUsername().equals(username) ||
+                    (u instanceof LegalEntity && ((LegalEntity)u).getRepresentative().equals(username))) {
                 return u;
             }
         }
@@ -57,10 +60,16 @@ public class ManagementPrimarie {
 
     public static void main(String[] args) throws IOException, ParseException {
         // Cleaning data from the previous running.
-        Arrays.stream(new File("src/main/resources/output").listFiles()).forEach(File::delete);
+        //Arrays.stream(new File("src/main/resources/output").listFiles()).forEach(File::delete);
 
+        SimpleDateFormat formater = new SimpleDateFormat("dd-MMM-yyyy HH:mm:ss");
         String inputFile = args[0];
+        String username;
+        String officeType;
+        String servantName;
+        Date dateAndTIme;
         User user = null;
+        Office office = null;
         users = new ArrayList<>();
         offices = new HashMap<>();
 
@@ -79,7 +88,7 @@ public class ManagementPrimarie {
                         String type = parser.getFirstAttribute();
                         String civilServantName = parser.getSecondAttribute();
                         try {
-                            Office office = getOffice(type);
+                            office = getOffice(type);
                             office.addServant(new CivilServant(civilServantName));
                         } catch (IncorrectOfficeTypeException e) {
                             e.printStackTrace();
@@ -97,59 +106,119 @@ public class ManagementPrimarie {
                         break;
 
                     case "cerere_noua":
-                        String username = parser.getFirstAttribute();
+                        username = parser.getFirstAttribute();
                         String requestType = parser.getSecondAttribute();
-                        String dateAndTime = parser.getThirdAttribute();
+                        Date dateAndTime = formater.parse(parser.getThirdAttribute());
                         Integer priority = Integer.parseInt(parser.getFourthAttribute());
 
                         user = findUser(username);
                         if (user != null) {
-                            Request newRequest = new Request(username, requestType, dateAndTime, priority);
-                            user.addPendingRequest(newRequest);
-                            Office office = null;
-                            try {
-                                office = getOffice(user.getUserType().getValue());
-                                if (office != null) {
-                                    office.addRequest(newRequest);
-                                } else {
-                                    System.out.println("office not found");
+                            RequestType requestTypeValue = RequestType.valueOfInput(requestType);
+                            if (user.getAllowedRequests().contains(requestTypeValue)) {
+                                Request newRequest = new Request(username, requestType, dateAndTime, priority);
+                                user.addPendingRequest(newRequest);
+                                office = null;
+                                try {
+                                    office = getOffice(user.getUserType().getValue());
+                                    if (office != null) {
+                                        office.addRequest(newRequest);
+                                    } else {
+                                        System.out.println("office not found");
+                                    }
+                                } catch (IncorrectOfficeTypeException e) {
+                                    e.printStackTrace();
                                 }
-                            } catch (IncorrectOfficeTypeException e) {
-                                e.printStackTrace();
+                            } else {
+                                List<String> content = new ArrayList<>();
+                                content.add(String.format("Utilizatorul de tip %s nu poate inainta o cerere de tip %s\n", user.getUserType().getValue(),
+                                        requestType));
+                                WriteFile.writeWithAppend(content, inputFile);
                             }
 
                         } else {
                             System.out.println("user not found");
                         }
 
+
+
                         break;
 
                     case "retrage_cerere":
-                        // TO DO
+                        username = parser.getFirstAttribute();
+                        dateAndTime = formater.parse(parser.getSecondAttribute());
+                        user = findUser(username);
+                        user.deleteRequest(dateAndTime);
+                        try {
+                            office = getOffice(user.getUserType().getValue());
+                            TreeSet<Request> requestsToSearch = office.getRequests();
+
+                            for (Request r: requestsToSearch) {
+                                //System.out.println(r.getDateAndTime().toString() + "///" + requestDateAndTime);
+                                if (r.getDateAndTime().equals(dateAndTime)) {
+                                    //System.out.println("FOUND");
+                                    requestsToSearch.remove(r);
+                                    break;
+                                }
+                            }
+                        } catch (IncorrectOfficeTypeException e) {
+                            e.printStackTrace();
+                        }
                         break;
 
                     case "rezolva_cerere":
-                        // TO DO
+                        officeType = parser.getFirstAttribute();
+                        servantName = parser.getSecondAttribute();
+                        try {
+                            office = getOffice(officeType);
+                            Request requestToSolve = (Request) office.getRequests().pollFirst();
+                            CivilServant servant = office.findServant(servantName);
+                            servant.addSolvedRequest(requestToSolve);
+                            user = findUser(requestToSolve.getUsername());
+                            // Move request from pending to finished.
+                            user.addFinishedRequest(requestToSolve);
+                            user.deleteRequest(requestToSolve.getDateAndTime());
+
+                        } catch (IncorrectOfficeTypeException e) {
+                            e.printStackTrace();
+                        }
+
                         break;
 
                     case "afiseaza_cereri_in_asteptare":
-                        // TO DO
+                        username = parser.getFirstAttribute();
+                        user = findUser(username);
+
+                        WriteFile.writeWithAppend(user.getRequestsAsStrings(true), inputFile);
                         break;
 
                     case "afiseaza_cereri_finalizate":
-                        // TO DO
+                        username = parser.getFirstAttribute();
+                        user = findUser(username);
+
+                        WriteFile.writeWithAppend(user.getRequestsAsStrings(false), inputFile);
                         break;
 
                     case "afiseaza_cereri":
                         try {
-                            String officeType = parser.getFirstAttribute();
-                            Office office = getOffice(officeType);
+                            officeType = parser.getFirstAttribute();
+                            office = getOffice(officeType);
                             if (office != null) {
-                                PriorityQueue<Request> requests =  office.getRequests();
-                                for (Request r: requests) {
+                                TreeSet<Request> requests =  office.getRequests();
+                                //requests.pollFirst();
+                                Request r;
+                                List<String> content = new ArrayList<>();
+                                content.add(officeType + " - cereri in birou:\n");
+
+                                Iterator<Request> iterator = requests.iterator();
+                                while (iterator.hasNext()) {
+                                    r = iterator.next();
                                     user = findUser(r.getUsername());
-                                    System.out.println(user.writeRequest(r.getType().getValue()));
+                                    content.add(r.getPriority() + " - " + formater.format(r.getDateAndTime()) + " - " +
+                                            user.writeRequest(r.getType().getValue()) + "\n");
                                 }
+
+                                WriteFile.writeWithAppend(content, inputFile);
+
                             } else {
                                 System.out.println("Office does not exist");
                             }
@@ -163,6 +232,23 @@ public class ManagementPrimarie {
                 }
             }
 
+            Iterator<Map.Entry<String, Office>> iterator = offices.entrySet().iterator();
+
+            while (iterator.hasNext()) {
+                Map.Entry<String, Office> entry = iterator.next();
+                List<CivilServant> servants = entry.getValue().getServants();
+
+                for (CivilServant cs: servants) {
+                    if (!cs.getSolvedRequests().isEmpty()) {
+                        //String testNum = inputFile.substring(0, inputFile.indexOf("_"));
+                        String outputFile = "functionar_" + cs.getName() + ".txt";
+                        WriteFile.writeWithAppend(cs.getLogs(), outputFile);
+                    }
+                }
+
+            }
+
+
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
@@ -173,18 +259,18 @@ public class ManagementPrimarie {
 //
 //        System.out.println("--------");
 //
-        Iterator<Map.Entry<String, Office>> iterator = offices.entrySet().iterator();
-
-        while (iterator.hasNext()) {
-            System.out.println("////");
-            Map.Entry<String, Office> entry = iterator.next();
-
-            PriorityQueue<Request> requests = entry.getValue().getRequests();
-            for (Request r: requests) {
-                System.out.println(r.getType() + "##" + r.getUsername());
-            }
-            System.out.println();
-        }
+//        Iterator<Map.Entry<String, Office>> iterator = offices.entrySet().iterator();
+//
+//        while (iterator.hasNext()) {
+//            System.out.println("////");
+//            Map.Entry<String, Office> entry = iterator.next();
+//
+//            PriorityQueue<Request> requests = entry.getValue().getRequests();
+//            for (Request r: requests) {
+//                System.out.println(r.getType() + "##" + r.getUsername());
+//            }
+//            System.out.println();
+//        }
 
     }
 }

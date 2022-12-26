@@ -10,10 +10,19 @@ public class LegalEntity extends User {
         allowedRequests.add(RequestType.REINNOIRE_AUTORIZATIE);
         this.userType = userType;
         this.username = username;
-        this.representative = representative;
+        this.representative  = representative;
     }
 
     public String requestAsUser() {
-        return String.format("reprezentant legal al companiei %s,", representative);
+        return String.format(" reprezentant legal al companiei %s,", getRepresentative());
+    }
+
+    public String getRepresentative() {
+        return representative;
+    }
+
+    @Override
+    public String getRepresentant() {
+        return this.representative;
     }
 }

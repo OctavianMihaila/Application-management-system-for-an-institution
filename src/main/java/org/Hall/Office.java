@@ -2,9 +2,7 @@ package org.Hall;
 
 import Users.User;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Office<T> {
 
@@ -12,7 +10,7 @@ public class Office<T> {
 
     private static Office obj;
     private List<CivilServant> servants;
-    private PriorityQueue<Request> requests = new PriorityQueue<>();
+    private TreeSet<Request> requests = new TreeSet<Request>();
 
     public Office(T citizen) {
         this.citizen = citizen;
@@ -26,7 +24,11 @@ public class Office<T> {
         return citizen;
     }
 
-    public PriorityQueue<Request> getRequests() {
+    public List<CivilServant> getServants() {
+        return servants;
+    }
+
+    public TreeSet<Request> getRequests() {
         return requests;
     }
 
@@ -50,6 +52,16 @@ public class Office<T> {
     public void addServant(CivilServant servant) {
         // TO DO: Add exception for cases when a wrong type request is sent to a office.
         this.servants.add(servant);
+    }
+
+    public CivilServant findServant(String name) { // TODO: Throw exception, servant does not exist.
+        for (CivilServant cs: servants) {
+            if (cs.getName().equals(name)) {
+                return cs;
+            }
+        }
+
+        return null;
     }
 
 }
