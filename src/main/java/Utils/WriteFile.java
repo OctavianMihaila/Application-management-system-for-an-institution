@@ -1,10 +1,13 @@
 package Utils;
 
-import java.io.*;
-import java.util.Arrays;
+import java.io.BufferedWriter;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.List;
-import java.util.logging.StreamHandler;
 
+/**
+ * Creates a new file if not created or adds lines to an existing file.
+ */
 public class WriteFile {
     public static void writeWithAppend(List<String> content, String outputFile) {
         FileWriter fw = null;
@@ -14,15 +17,10 @@ public class WriteFile {
             fw = new FileWriter("src/main/resources/output/" + outputFile, true);
             bw = new BufferedWriter(fw);
 
-//            BufferedReader in = new BufferedReader(new FileReader("src/main/resources/output/" + outputFile));
-//            System.out.println(in.readLine());
-
-            for (String s: content) {
+            for (String s : content) {
                 System.out.print(s);
                 bw.append(s);
             }
-//            out.flush();
-//            out.close();
         } catch (IOException e) {
             e.printStackTrace();
         } finally {

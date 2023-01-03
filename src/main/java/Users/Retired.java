@@ -5,9 +5,9 @@ import org.example.RequestType;
 public class Retired extends User {
 
     public Retired(UserType userType, String username) {
-        allowedRequests.add(RequestType.INLOCUIRE_BULETIN);
-        allowedRequests.add(RequestType.INLOCUIRE_CARNET_DE_SOFER);
-        allowedRequests.add(RequestType.INREGISTRARE_CUPOANE_DE_PENSIE);
+        allowedRequests.add(RequestType.ID_REPLACEMENT);
+        allowedRequests.add(RequestType.DRIVER_LICENSE_REPLACEMENT);
+        allowedRequests.add(RequestType.PENSION_COUPONS_REGISTRATION);
         this.userType = userType;
         this.username = username;
     }

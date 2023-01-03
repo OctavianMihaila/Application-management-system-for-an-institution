@@ -1,19 +1,16 @@
 package Users;
 
-public enum UserType { //TODO rename content to english
-    ELEV("elev"),
-    PERSOANA("persoana"),
-    ANGAJAT("angajat"),
-    PENSIONAR("pensionar"),
-    ENTITATE_JURIDICA("entitate juridica");
+public enum UserType {
 
-    private String value;
+    STUDENT("elev"),
+    PERSON("persoana"),
+    EMPLOYEE("angajat"),
+    RETIRED("pensionar"),
+    LEGAL_ENTITY("entitate juridica");
 
-    public String getValue() {
-        return this.value;
-    }
+    private final String value;
 
-    private UserType(String value) {
+    UserType(String value) {
         this.value = value;
     }
 
@@ -24,5 +21,9 @@ public enum UserType { //TODO rename content to english
             }
         }
         return null;
+    }
+
+    public String getValue() {
+        return this.value;
     }
 }

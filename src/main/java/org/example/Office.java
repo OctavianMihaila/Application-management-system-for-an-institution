@@ -1,25 +1,26 @@
 package org.example;
 
-import java.util.*;
+import Utils.ServantNotFoundException;
 
+import java.util.ArrayList;
+import java.util.Date;
+import java.util.List;
+import java.util.TreeSet;
+
+/**
+ * The hall is structured in several offices, each solving different types of requests.
+ *
+ * @param <T> Generic parameter to mark which type of user the office specializes in.
+ */
 public class Office<T> {
 
-    private T citizen;
-
-    private static Office obj;
-    private List<CivilServant> servants;
-    private TreeSet<Request> requests = new TreeSet<Request>();
+    private final T citizen;
+    private final List<CivilServant> servants;
+    private final TreeSet<Request> requests = new TreeSet<>();
 
     public Office(T citizen) {
         this.citizen = citizen;
         this.servants = new ArrayList<>();
-    }
-    public void setCitizen(T citizen) {
-        this.citizen = citizen;
-    }
-
-    public T getCitizen() {
-        return citizen;
     }
 
     public List<CivilServant> getServants() {
@@ -30,36 +31,42 @@ public class Office<T> {
         return requests;
     }
 
+    /**
+     * Removes a request from the office pending queue.
+     *
+     * @param dateAndTime
+     */
+    public void removeRequest(Date dateAndTime) {
+        for (Request r : requests) {
+            if (r.getDateAndTime().equals(dateAndTime)) {
+                requests.remove(r);
+                return;
+            }
+        }
+    }
+
     public void addRequest(Request newRequest) {
         requests.add(newRequest);
     }
 
-//    /**
-//     * Used for Singlethon pattern to ensure that we have a single office for every type.
-//     * @param user
-//     * @return
-//     */
-//    public static Office getInstance() {
-//        if (obj == null) {
-//            obj = new Office<>();
-//        }
-//
-//        return obj;
-//    }
-
     public void addServant(CivilServant servant) {
-        // TO DO: Add exception for cases when a wrong type request is sent to a office.
+
         this.servants.add(servant);
     }
 
-    public CivilServant findServant(String name) { // TODO: Throw exception, servant does not exist.
-        for (CivilServant cs: servants) {
+    /**
+     * Looking for a specific servant in the office.
+     *
+     * @param name
+     * @throws ServantNotFoundException
+     */
+    public CivilServant findServant(String name) throws ServantNotFoundException {
+        for (CivilServant cs : servants) {
             if (cs.getName().equals(name)) {
                 return cs;
             }
         }
 
-        return null;
+        throw new ServantNotFoundException(name);
     }
-
 }

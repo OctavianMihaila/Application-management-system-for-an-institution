@@ -2,15 +2,19 @@ package Users;
 
 import org.example.RequestType;
 
+/**
+ * Each legal person is a representative for a company.
+ */
 public class LegalEntity extends User {
 
-    private String representative;
+    private final String representative;
+
     public LegalEntity(UserType userType, String username, String representative) {
-        allowedRequests.add(RequestType.CREARE_ACT_CONSTITUTIV);
-        allowedRequests.add(RequestType.REINNOIRE_AUTORIZATIE);
+        allowedRequests.add(RequestType.CONSTITUTIVE_ACT_CREATION);
+        allowedRequests.add(RequestType.AUTHORIZATION_RENEWAL);
         this.userType = userType;
         this.username = username;
-        this.representative  = representative;
+        this.representative = representative;
     }
 
     public String requestAsUser() {
@@ -18,6 +22,11 @@ public class LegalEntity extends User {
     }
 
     public String getRepresentative() {
+        return representative;
+    }
+
+    @Override
+    public String getUsername() {
         return representative;
     }
 

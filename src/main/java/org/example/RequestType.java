@@ -1,21 +1,18 @@
 package org.example;
 
 public enum RequestType {
-    INLOCUIRE_BULETIN("inlocuire buletin"),
-    INREGISTRARE_VENIT_SALARIAL("inregistrare venit salarial"),
-    INLOCUIRE_CARNET_DE_SOFER("inlocuire carnet de sofer"),
-    INLOCUIRE_CARNET_DE_ELEV("inlocuire carnet de elev"),
-    CREARE_ACT_CONSTITUTIV("creare act constitutiv"),
-    REINNOIRE_AUTORIZATIE("reinnoire autorizatie"),
-    INREGISTRARE_CUPOANE_DE_PENSIE("inregistrare cupoane de pensie");
 
-    private String value;
+    ID_REPLACEMENT("inlocuire buletin"),
+    SALARY_INCOME_REGISTRATION("inregistrare venit salarial"),
+    DRIVER_LICENSE_REPLACEMENT("inlocuire carnet de sofer"),
+    STUDENT_CARD_REPLACEMENT("inlocuire carnet de elev"),
+    CONSTITUTIVE_ACT_CREATION("creare act constitutiv"),
+    AUTHORIZATION_RENEWAL("reinnoire autorizatie"),
+    PENSION_COUPONS_REGISTRATION("inregistrare cupoane de pensie");
 
-    public String getValue() {
-        return this.value;
-    }
+    private final String value;
 
-    private RequestType(String value) {
+    RequestType(String value) {
         this.value = value;
     }
 
@@ -28,5 +25,7 @@ public enum RequestType {
         return null;
     }
 
-
+    public String getValue() {
+        return this.value;
+    }
 }

@@ -4,10 +4,11 @@ import org.example.RequestType;
 
 public class Student extends User {
 
-    private String school;
+    private final String school;
+
     public Student(UserType userType, String username, String school) {
-        allowedRequests.add(RequestType.INLOCUIRE_BULETIN);
-        allowedRequests.add(RequestType.INLOCUIRE_CARNET_DE_ELEV);
+        allowedRequests.add(RequestType.ID_REPLACEMENT);
+        allowedRequests.add(RequestType.STUDENT_CARD_REPLACEMENT);
         this.userType = userType;
         this.username = username;
         this.school = school;
@@ -16,6 +17,4 @@ public class Student extends User {
     public String requestAsUser() {
         return String.format(" elev la scoala %s,", school);
     }
-
-
 }

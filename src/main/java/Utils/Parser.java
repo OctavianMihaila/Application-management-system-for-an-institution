@@ -1,8 +1,11 @@
 package Utils;
 
-import static Utils.Constants.OFFSET_SPACES;
-
+/**
+ * Used to get specific attributes from a received command.
+ */
 public class Parser {
+
+    public static final Integer OFFSET_SPACES = 4;
     Integer position;
     String userDetails;
 
@@ -12,7 +15,6 @@ public class Parser {
     }
 
     public String getFirstAttribute() {
-
         return userDetails.substring(userDetails.indexOf(" "), position)
                 .replace(";", "").trim();
     }
@@ -28,8 +30,8 @@ public class Parser {
         int offsetArgs = this.getSecondAttribute().length();
 
         if (semicolonCount >= OFFSET_SPACES) {
-            return userDetails.substring(position + offsetArgs
-                    + OFFSET_SPACES, userDetails.indexOf(";", position + offsetArgs + OFFSET_SPACES));
+            return userDetails.substring(position + offsetArgs + OFFSET_SPACES,
+                    userDetails.indexOf(";", position + offsetArgs + OFFSET_SPACES));
         }
 
         return null;
