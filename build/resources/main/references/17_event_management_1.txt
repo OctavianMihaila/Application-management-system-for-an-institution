@@ -1,0 +1,7 @@
+contabilitate - cereri in birou:
+5 - 14-Jan-2022 10:01:07 - Subsemnatul John Smith, reprezentant legal al companiei John SRL, va rog sa-mi aprobati urmatoarea solicitare: organizare eveniment
+3 - 13-Jan-2022 10:01:01 - Subsemnatul Monica Margescu, va rog sa-mi aprobati urmatoarea solicitare: organizare eveniment
+2 - 15-Jan-2022 10:01:01 - Subsemnatul John Smith, reprezentant legal al companiei John SRL, va rog sa-mi aprobati urmatoarea solicitare: organizare eveniment
+Title: Street food festival | Financed by municipality: false | Max allowed participants: 500 | Scheduled time: Fri Jan 21 12:00:00 EET 2022
+Title: Targ de Craciun | Financed by municipality: false | Max allowed participants: 2000 | Scheduled time: Thu Jan 20 12:00:00 EET 2022
+Title: Maraton bla bla | Financed by municipality: false | Max allowed participants: 500 | Scheduled time: Fri Jan 21 12:00:00 EET 2022

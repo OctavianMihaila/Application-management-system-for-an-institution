@@ -9,6 +9,8 @@ public class Student extends User {
     public Student(UserType userType, String username, String school) {
         allowedRequests.add(RequestType.ID_REPLACEMENT);
         allowedRequests.add(RequestType.STUDENT_CARD_REPLACEMENT);
+        allowedRequests.add(RequestType.EVENT_ORGANIZATION);
+        allowedRequests.add(RequestType.EVENT_REGISTRATION);
         this.userType = userType;
         this.username = username;
         this.school = school;

@@ -1,0 +1,24 @@
+adauga_functionar; contabilitate; Alina Popescu
+adauga_functionar; elev; Gabriel Functionarescu
+adauga_functionar; angajat; Andrei Functionarescu
+adauga_utilizator; pensionar; Monica Margescu
+adauga_utilizator; elev; Dorel Electricianul
+adauga_utilizator; elev; Mihai Scolarescu
+adauga_utilizator; elev; Alex Scolarescu
+adauga_utilizator; entitate juridica; John SRL; John Smith
+add_founds_to_event_budget; 3000
+cerere_noua; Monica Margescu; organizare eveniment; 13-Jan-2022 10:01:01; 3;| Targ de Craciun| da| 1000| 20-Jan-2022 12:00:00| 15-Jan-2022 10:00:00| 2000|
+cerere_noua; John SRL; organizare eveniment; 14-Jan-2022 10:01:07; 5;| Street food festival| da| 5000| 21-Jan-2022 12:00:00| 18-Jan-2022 10:00:00| 500|
+cerere_noua; John SRL; organizare eveniment; 15-Jan-2022 10:01:01; 2;| Maraton bla bla| nu| 5000| 21-Jan-2022 12:00:00| 18-Jan-2022 10:00:00| 500|
+cerere_noua; Alex Scolarescu; organizare eveniment; 20-Jan-2022 10:01:01; 5;| Evenimentul Scoala bla bla| nu| 100| 25-Jan-2022 12:00:00| 24-Jan-2022 10:00:00| 2000|
+afiseaza_cereri; contabilitate
+rezolva_cerere; contabilitate; Alina Popescu
+rezolva_cerere; contabilitate; Alina Popescu
+cerere_noua; Dorel Electricianul; inscriere eveniment; 21-Jan-2022 10:01:17; 2;| Evenimentul Scoala bla bla|
+cerere_noua; Mihai Scolarescu; inscriere eveniment; 22-Jan-2022 10:01:17; 3;| Evenimentul Scoala bla bla|
+rezolva_cerere; elev; Gabriel Functionarescu
+rezolva_cerere; elev; Gabriel Functionarescu
+rezolva_cerere; contabilitate; Alina Popescu
+afiseaza_participanti; Evenimentul Scoala bla bla
+afiseaza_participanti; Street food festival
+afiseaza_evenimente

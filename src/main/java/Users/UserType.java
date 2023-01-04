@@ -6,7 +6,9 @@ public enum UserType {
     PERSON("persoana"),
     EMPLOYEE("angajat"),
     RETIRED("pensionar"),
-    LEGAL_ENTITY("entitate juridica");
+    LEGAL_ENTITY("entitate juridica"),
+    // Users of this type are never created. It is used just to create a accountancy office easier.
+    ACCOUNTANCY("contabilitate");
 
     private final String value;
 

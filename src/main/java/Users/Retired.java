@@ -8,6 +8,8 @@ public class Retired extends User {
         allowedRequests.add(RequestType.ID_REPLACEMENT);
         allowedRequests.add(RequestType.DRIVER_LICENSE_REPLACEMENT);
         allowedRequests.add(RequestType.PENSION_COUPONS_REGISTRATION);
+        allowedRequests.add(RequestType.EVENT_ORGANIZATION);
+        allowedRequests.add(RequestType.EVENT_REGISTRATION);
         this.userType = userType;
         this.username = username;
     }

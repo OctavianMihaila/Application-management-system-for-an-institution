@@ -8,7 +8,9 @@ public enum RequestType {
     STUDENT_CARD_REPLACEMENT("inlocuire carnet de elev"),
     CONSTITUTIVE_ACT_CREATION("creare act constitutiv"),
     AUTHORIZATION_RENEWAL("reinnoire autorizatie"),
-    PENSION_COUPONS_REGISTRATION("inregistrare cupoane de pensie");
+    PENSION_COUPONS_REGISTRATION("inregistrare cupoane de pensie"),
+    EVENT_ORGANIZATION("organizare eveniment"),
+    EVENT_REGISTRATION("inscriere eveniment");
 
     private final String value;
 

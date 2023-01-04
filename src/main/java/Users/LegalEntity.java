@@ -12,6 +12,8 @@ public class LegalEntity extends User {
     public LegalEntity(UserType userType, String username, String representative) {
         allowedRequests.add(RequestType.CONSTITUTIVE_ACT_CREATION);
         allowedRequests.add(RequestType.AUTHORIZATION_RENEWAL);
+        allowedRequests.add(RequestType.EVENT_ORGANIZATION);
+        allowedRequests.add(RequestType.EVENT_REGISTRATION);
         this.userType = userType;
         this.username = username;
         this.representative = representative;
