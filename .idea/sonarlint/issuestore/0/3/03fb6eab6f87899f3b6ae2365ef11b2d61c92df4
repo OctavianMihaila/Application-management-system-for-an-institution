@@ -1,0 +1,83 @@
+
+Q
+java:S3740"/Provide the parametrized type for this generic.(±‚ƒåÿÿÿÿÿ8û¼æë×0
+L
+java:S3740 "/Provide the parametrized type for this generic.(Œ±ş8û¼æë×0
+L
+java:S3740%"/Provide the parametrized type for this generic.(û÷”Â8û¼æë×0
+Q
+java:S3740)"/Provide the parametrized type for this generic.(ùû­äşÿÿÿÿ8û¼æë×0
+Q
+java:S3740-"/Provide the parametrized type for this generic.(Ø’•ûÿÿÿÿ8û¼æë×0
+K
+java:S37401"/Provide the parametrized type for this generic.(Ô˜Ìd8û¼æë×0
+L
+java:S37405"/Provide the parametrized type for this generic.(ÑÉ²É8ü¼æë×0
+Q
+java:S37409"/Provide the parametrized type for this generic.(ÓÜÊ¸ûÿÿÿÿ8ü¼æë×0
+Q
+java:S3740f"/Provide the parametrized type for this generic.(½õˆûÿÿÿÿ8ü¼æë×0
+R
+java:S3740²"/Provide the parametrized type for this generic.(¨êŞÑşÿÿÿÿ8ü¼æë×0
+M
+java:S3740×"/Provide the parametrized type for this generic.(®şß8ü¼æë×0
+R
+java:S3740™"/Provide the parametrized type for this generic.(Çš©ÿıÿÿÿÿ8ü¼æë×0
+R
+java:S3740Ğ"/Provide the parametrized type for this generic.(Çš©ÿıÿÿÿÿ8ü¼æë×0
+M
+java:S3740ï"/Provide the parametrized type for this generic.(Íîûİ8ü¼æë×0
+L
+java:S3740ò"/Provide the parametrized type for this generic.(™„õb8ı¼æë×0
+i
+java:S11929"NDefine a constant instead of duplicating this literal "contabilitate" 3 times.(ÓÜÊ¸ûÿÿÿÿ
+Q
+java:S1141¡"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141ª"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+Q
+java:S1141Í"5Extract this nested try block into a separate method.(¡»¢üùÿÿÿÿ
+8
+java:S1643¾"Use a StringBuilder instead.(ôÉáÍÿÿÿÿÿ
+M
+java:S5411á"*Use the primitive boolean expression here.(ï¶Á¥üÿÿÿÿ8†½æë×0
+M
+java:S5411ã"*Use the primitive boolean expression here.(Ößç­üÿÿÿÿ8‰½æë×0
+n
+java:S2259"PA "NullPointerException" could be thrown; "eventToRegisterFor" is nullable here.(ŒÔ²‰8îÃæë×0
+^
+java:S2259ü"GA "NullPointerException" could be thrown; "findUser()" can return null.(Í¼ƒï
+Z
+java:S2259ü"CA "NullPointerException" could be thrown; "event" is nullable here.(Í¼ƒï
+^
+java:S2259Õ"BA "NullPointerException" could be thrown; "user" is nullable here.(Ø¨å÷ùÿÿÿÿ
+^
+java:S2259Š"GA "NullPointerException" could be thrown; "findUser()" can return null.(¯ë‹
+^
+java:S2259è"GA "NullPointerException" could be thrown; "findUser()" can return null.(ÓÆÓÇ
+^
+java:S2259°"BA "NullPointerException" could be thrown; "user" is nullable here.(ÌãÏëşÿÿÿÿ
+^
+java:S2259Å"BA "NullPointerException" could be thrown; "user" is nullable here.(í´àÔøÿÿÿÿ
+Y
+java:S2259İ"BA "NullPointerException" could be thrown; "user" is nullable here.(–´ıÆ
+h
+java:S2095¹"LUse try-with-resources or close this "BufferedReader" in a "finally" clause.(æğÁ¯ıÿÿÿÿ
+F
+java:S2885"+Make "DATE_FORMATTER" an instance variable.(Ê¼ãüÿÿÿÿ
+t
+java:S3457¿"Q%n should be used in place of \n to produce the platform-specific line separator.(îÈëØıÿÿÿÿ8ëÅæë×0
+T	java:S106Å"9Replace this use of System.out or System.err by a logger.(¤ÌØ˜ùÿÿÿÿ
+H
+java:S1905‹"+Remove this unnecessary cast to "UserType".(¸“‰A8şÅæë×0
+T	java:S106ã"9Replace this use of System.out or System.err by a logger.(×áÒùÿÿÿÿÿ
+C
+java:S1602",Remove useless curly braces around statement(Í„±
+J
+java:S1905"'Remove this unnecessary cast to "User".(Îá…ùøÿÿÿÿ8”Ææë×0
+\
+java:S2147ı"ECombine this catch with the one at line 507, which has the same body.(ï­£Ä
+a
+java:S2147ÿ"ECombine this catch with the one at line 507, which has the same body.(âÃƒŠıÿÿÿÿ
+F
+java:S2093¶"*Change this "try" to a try-with-resources.(¡»¢üùÿÿÿÿ

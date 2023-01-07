@@ -1,0 +1,10 @@
+
+>
+java:S16046"(Make this anonymous inner class a lambda(Óº¦Ñ
+@
+java:S5411-"*Use the primitive boolean expression here.(¬Åƒâ
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓŠÖ°ûÿÿÿÿ
+=
+java:S1125-"'Remove the unnecessary boolean literal.(¬Åƒâ
+T
+java:S3400I"9Remove this method and declare a constant for this value.(Ö§”Óþÿÿÿÿ

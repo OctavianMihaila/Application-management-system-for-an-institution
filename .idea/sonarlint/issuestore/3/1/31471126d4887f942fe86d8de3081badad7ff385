@@ -1,0 +1,6 @@
+
+t	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ÓŠÖ°ûÿÿÿÿ
+w
+java:S4144"aUpdate this method so that its implementation is not identical to "getRepresentative" on line 26.(ú´­÷
+U
+java:S1161":Add the "@Override" annotation above this method signature(™Æí˜øÿÿÿÿ
