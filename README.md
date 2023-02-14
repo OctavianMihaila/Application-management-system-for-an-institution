@@ -1,4 +1,17 @@
-# Structure:
+# Descripton
+
+        -> This is an application management system for an institution. The main challenge
+           is the handling of citizens' requests by civil servants. To avoid queues for
+           registering a business, changing IDs or registering a student ID.
+
+# Testing
+
+        -> Testing is done by running the program on the files in src/main/resources/input
+           and comparing the files in src/main/resources/references to src/main/resources/output.
+        
+        -> For proper operation, the output directory must exist/be created beforehand.
+
+# Structure
 
         -> This is a request management system for an institution. It is structured
            based on some user types, each type of user having assigned their own office.
@@ -17,7 +30,7 @@
            Thus, users can create requests to organize or participate in a specific event.
            At the same time, the institution also has a way of financing these events.
 
-# Implementation:
+# Implementation
 
         -> User:
 
@@ -52,17 +65,13 @@
                 request, deleting it from the office and transferring it to the own solved list,
                 as well as moving it from the pending list to the finished list for the user.
 
-        -> Event (Bonus):
+        -> Event:
 
             >>  The event is created following a request made by a user, who completes the type
                 of event he wants to organize (own funding or from the institution), the maximum
                 number of participants as well as the date until which registrations can be made
                 as well as the type of participants who can take part in the event (for
                 simplicity I kept only the type of user who created the event).
-
-            >>  The requests for organizing an event as well as for registration are implemented
-                using an extension of the Request class that provides the specific attributes of
-                an event.
 
             >>  In order to manage requests for organizing events, we have created a special
                 accounting office. Thus, requests with funding from the institution are approved
