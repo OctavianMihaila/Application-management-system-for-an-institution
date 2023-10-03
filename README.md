@@ -1,78 +1,56 @@
-# Descripton
+# Institution Request Management System
 
-        -> This is an application management system for an institution. The main challenge
-           is the handling of citizens' requests by civil servants. To avoid queues for
-           registering a business, changing IDs or registering a student ID.
+## Description
 
-# Testing
+This is an application management system designed for an institution to efficiently handle citizens' requests processed by civil servants. Its primary aim is to eliminate queues for tasks such as registering a business, changing IDs, or registering a student ID.
 
-        -> Testing is done by running the program on the files in src/main/resources/input
-           and comparing the files in src/main/resources/references to src/main/resources/output.
-        
-        -> For proper operation, the output directory must exist/be created beforehand.
+## Testing
 
-# Structure
+To perform testing, run the program using the files located in `src/main/resources/input` and compare the results with the reference files in `src/main/resources/references` against the program's output in `src/main/resources/output`. Ensure that the output directory exists or create it beforehand for the proper operation of the testing process.
 
-        -> This is a request management system for an institution. It is structured
-           based on some user types, each type of user having assigned their own office.
+## Structure
 
-        -> A request is created by a user and subsequently placed in the specific office.
-           It is placed in a waiting queue with the priority index as the main criteria
-           and the creation timestamp as the secondary criteria.
+The institution request management system is structured around various user types, with each type of user having their designated office. Here's an overview of the system's structure:
 
-        -> The office has the function of solving requests by specific civil servants.
+- **User:** Users create requests that are subsequently placed in specific offices. Requests are queued based on priority index and creation timestamp. Users have two lists to keep track of their requests: pending and finished. Additionally, there is a list of allowed request types represented by the `RequestType` enum.
 
-        -> The civil servant is the specific entity of the office, specialized to solve
-           a certain type of requests. At the same time, logs are kept with the requests
-           resolved by each employee
+- **Office:** Offices are generic and associated with user types. They contain a request queue ordered by priorities, with priority index and creation date as the main criteria. Requests are stored using a `TreeSet` collection, chosen for its ability to maintain order via the `Comparable` interface. Resolving the first request in the queue can be achieved with the `pollFirst` method, which also removes the request from the collection.
 
-        -> The institution can also keep a record of the events organized in the city.
-           Thus, users can create requests to organize or participate in a specific event.
-           At the same time, the institution also has a way of financing these events.
+- **Civil Servant:** Civil servants are generic entities that can handle various types of requests, making them versatile for different offices. They can resolve requests, transferring them from the office's pending list to the finished list for users.
 
-# Implementation
+- **Event:** Users can create requests to organize or participate in city events. Event requests specify the type of event, funding source (self-funded or institutional), maximum participants, registration deadline, and the type of participants allowed. An accounting office manages event requests, approving those within the budget (with an option to add funds to the institution).
 
-        -> User:
+## Implementation
 
-            >>  Users are created starting from the User abstract class which is the common
-                part of each user using Factory design pattern. Users have 2 lists in which
-                requests are kept (pending and finished) and a list of allowed requests
-                (RequestType, an enum that describes all types of requests that can be created).
+### User:
 
-            >>  The choice of lists to perform these storages is justified by the fact that
-                the commands to display the 2 lists propose displaying the requests in the
-                order in which they were created/completed, and the list is a good collection
-                for that.
+- Users are created using the Factory design pattern, starting from the abstract `User` class, which represents the common aspects of all users.
 
-            >>  The requestAsUser method is overridden by the classes that inherit the User
-                base class and represents the customized part of the request for each user.
+- Users maintain two lists for request tracking (pending and finished) and have a list of allowed request types (`RequestType` enum).
 
-        -> Office:
+- Lists are used for displaying requests in the order of creation/completion, and `List` is a suitable collection for this purpose.
 
-            >>  Office is a generic class based on user types. It contains a request queue
-                based on priorities, priority index and request creation date.
+- The `requestAsUser` method is overridden by classes that inherit from the `User` base class, providing customization for each user type.
 
-            >>  Requests are stored using the TreeSet collection. Its choice over the other
-                collections is given by the ease of keeping the order of requests using the
-                Comparable interface and implicitly overwriting the compareTo method. Thus,
-                to access the first request that needs to be resolved, just use the pollFirst
-                method, which also deletes the element from the collection.
+### Office:
 
-        -> Civil Servant:
+- The `Office` class is generic and categorized based on user types.
 
-            >>  The civil servant is generic for all types of offices, assuming the genericity
-                of the office. It is designed in such a way that it can resolve any type of
-                request, deleting it from the office and transferring it to the own solved list,
-                as well as moving it from the pending list to the finished list for the user.
+- It contains a request queue, prioritized by a combination of priority index and request creation date.
 
-        -> Event:
+- Requests are stored in a `TreeSet` collection, chosen for its ease of maintaining request order using the `Comparable` interface.
 
-            >>  The event is created following a request made by a user, who completes the type
-                of event he wants to organize (own funding or from the institution), the maximum
-                number of participants as well as the date until which registrations can be made
-                as well as the type of participants who can take part in the event (for
-                simplicity I kept only the type of user who created the event).
+- To access and remove the first request needing resolution, the `pollFirst` method is used.
 
-            >>  In order to manage requests for organizing events, we have created a special
-                accounting office. Thus, requests with funding from the institution are approved
-                within the budget (there is also a method of adding funds for the institution).
+### Civil Servant:
+
+- Civil servants are designed to be generic, capable of handling any type of request from different offices.
+
+- They can resolve requests, moving them from the office's pending list to the finished list for users.
+
+### Event:
+
+- Users create event requests, specifying event type, funding source, maximum participants, registration deadline, and allowed participant types.
+
+- An accounting office manages event requests, approving those within budget constraints, with the option to add funds to the institution.
+
